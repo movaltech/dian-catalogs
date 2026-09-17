@@ -1,0 +1,17 @@
+[
+    {
+        "code": "COP",
+        "name": "Peso Colombiano",
+        "symbol": "$"
+    },
+    {
+        "code": "USD",
+        "name": "Dólar Estadounidense",
+        "symbol": "US$"
+    },
+    {
+        "code": "EUR",
+        "name": "Euro",
+        "symbol": "€"
+    }
+]

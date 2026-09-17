@@ -1,0 +1,5407 @@
+[
+    {
+        "code": "10",
+        "name": "Grupo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "11",
+        "name": "Equipar",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "13",
+        "name": "Ración",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "14",
+        "name": "Disparo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "15",
+        "name": "Palo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "16",
+        "name": "Tambor de ciento quince kg",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "17",
+        "name": "Tambor de cien libras",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "18",
+        "name": "Tambor de cincuenta y cinco galones (US)",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "19",
+        "name": "Camión cisterna",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "1B",
+        "name": "Recuento de coches",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "1C",
+        "name": "Recuento de locomotoras",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "1D",
+        "name": "Recuento de cabos",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "1E",
+        "name": "Carro vacio",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "1F",
+        "name": "Millas de tren",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "1G",
+        "name": "Uso de combustible galón (US)",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "1H",
+        "name": "Milla del caboose",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "1I",
+        "name": "Tipo de interés fijo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "1J",
+        "name": "Tonelada milla",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "1K",
+        "name": "Milla locomotora",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "1L",
+        "name": "Recuento total de coches",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "1M",
+        "name": "Milla de coche total",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "1X",
+        "name": "Cuarto de milla",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "20",
+        "name": "Contenedor de veinte pies",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "21",
+        "name": "Contenedor de cuarenta pies",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "22",
+        "name": "Decilitro por gramo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "23",
+        "name": "Gramo por centímetro cúbico",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "24",
+        "name": "Libra teórica",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "25",
+        "name": "Gramo por centímetro cuadrado",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "26",
+        "name": "Tonelada real",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "27",
+        "name": "Tonelada teórica",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "28",
+        "name": "Kilogramo por metro cuadrado",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "29",
+        "name": "Libra por mil pies cuadrados",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "2B",
+        "name": "Radianes por segundo al cuadrado",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "2C",
+        "name": "Röntgen",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "2I",
+        "name": "Unidad térmica británica por hora.",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "2J",
+        "name": "Centímetro cúbico por segundo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "2K",
+        "name": "Pie cúbico por hora",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "2L",
+        "name": "Pie cúbico por minuto",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "2M",
+        "name": "Centímetro por segundo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "2N",
+        "name": "Decibel",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "2P",
+        "name": "Kilobyte",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "2Q",
+        "name": "Kilobecquerel",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "2R",
+        "name": "Kilocurie",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "2U",
+        "name": "Megagramo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "2V",
+        "name": "Megagramo por hora",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "2W",
+        "name": "Compartimiento",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "2X",
+        "name": "Metro por minuto",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "2Y",
+        "name": "Milliröntgen",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "2Z",
+        "name": "Milivoltios",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "30",
+        "name": "Día de potencia del caballo por tonelada métrica seca al aire.",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "31",
+        "name": "Coger peso",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "32",
+        "name": "Kilogramo por aire seco tonelada métrica",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "33",
+        "name": "Kilopascales metros cuadrados por gramo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "34",
+        "name": "Kilopascales por milímetro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "35",
+        "name": "Mililitros por centímetro cuadrado segundo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "36",
+        "name": "Pies cúbicos por minuto por pie cuadrado",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "37",
+        "name": "Onza por pie cuadrado",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "38",
+        "name": "Onzas por pie cuadrado por 0,01 pulgadas",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "3B",
+        "name": "Megajulio",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "3C",
+        "name": "Manmonth",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "3E",
+        "name": "Libra por libra de producto",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "3G",
+        "name": "Libra por pieza de producto",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "3H",
+        "name": "Kilogramo por kilogramo de producto",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "3I",
+        "name": "Kilogramo por pieza de producto",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "4",
+        "name": "Spray pequeño",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "40",
+        "name": "Mililitro por segundo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "41",
+        "name": "Mililitro por minuto",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "43",
+        "name": "Bolsa súper a granel",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "44",
+        "name": "Bolsa a granel de quinientos kg",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "45",
+        "name": "Bolsa a granel de trescientos kg",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "46",
+        "name": "Bolsa a granel de cincuenta libras",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "47",
+        "name": "Bolsa de cincuenta libras",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "48",
+        "name": "Carga de automóviles a granel",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "4B",
+        "name": "Gorra",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "4C",
+        "name": "Centistokes",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "4E",
+        "name": "Paquete de veinte",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "4G",
+        "name": "Microlitro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "4H",
+        "name": "Micrómetro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "4K",
+        "name": "Miliamperio",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "4L",
+        "name": "Megabyte",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "4M",
+        "name": "Miligramo por hora",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "4N",
+        "name": "Megabecquerel",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "4P",
+        "name": "Newton por metro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "4Q",
+        "name": "Onza pulgada",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "4R",
+        "name": "Pie onza",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "4T",
+        "name": "Picofarad",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "4U",
+        "name": "Libra por hora",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "4W",
+        "name": "Tonelada (US) por hora",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "4X",
+        "name": "Kilolitro por hora",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "5",
+        "name": "Levantar",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "53",
+        "name": "Kilogramos teóricos",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "54",
+        "name": "Tonelada teórica",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "56",
+        "name": "Sitas",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "57",
+        "name": "Malla",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "58",
+        "name": "Kilogramo neto",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "59",
+        "name": "Parte por millón",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "5B",
+        "name": "Lote",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "5C",
+        "name": "Galón (US) por mil",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "5E",
+        "name": "MMSCF / día",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "5F",
+        "name": "Libras por mil",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "5G",
+        "name": "Bomba",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "5H",
+        "name": "Escenario",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "5I",
+        "name": "Pie cúbico estándar",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "5J",
+        "name": "Potencia hidráulica de caballos",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "5K",
+        "name": "Contar por minuto",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "5P",
+        "name": "Nivel sísmico",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "5Q",
+        "name": "Nfor sismica",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "60",
+        "name": "Porcentaje de peso",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "61",
+        "name": "Parte por billón (US)",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "62",
+        "name": "Porcentaje por 1000 horas",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "63",
+        "name": "Tasa de fracaso en el tiempo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "64",
+        "name": "Libra por pulgada cuadrada, calibre",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "66",
+        "name": "Oersted",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "69",
+        "name": "Prueba de escala específica",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "71",
+        "name": "Voltio amperio por libra",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "72",
+        "name": "Vatio por libra",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "73",
+        "name": "Amperio tum por centímetro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "74",
+        "name": "Milipascal",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "76",
+        "name": "Gauss",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "77",
+        "name": "Mili pulgadas",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "78",
+        "name": "Kilogauss",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "8",
+        "name": "Lote calor",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "80",
+        "name": "Libras por pulgada cuadrada absoluta",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "81",
+        "name": "Enrique",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "84",
+        "name": "Kilopound por pulgada cuadrada",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "85",
+        "name": "Fuerza libra pie",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "87",
+        "name": "Libra por pie cúbico",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "89",
+        "name": "Equilibrio",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "90",
+        "name": "Saybold segundo universal",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "91",
+        "name": "Alimenta",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "92",
+        "name": "Calorías por centímetro cúbico",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "93",
+        "name": "Calorías por gramo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "94",
+        "name": "Unidad",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "95",
+        "name": "Veinte mil galones (US) de carros",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "96",
+        "name": "Diez mil galones (US) de carros",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "97",
+        "name": "Tambor de diez kg",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "98",
+        "name": "Tambor de quince kg",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A1",
+        "name": "15 calorías C",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A10",
+        "name": "Amperio metro cuadrado por joule segundo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A11",
+        "name": "Ã ¥ ngström",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A12",
+        "name": "Unidad astronómica",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A13",
+        "name": "Attojoule",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A14",
+        "name": "Granero",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A15",
+        "name": "Granero por electrón voltio",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A16",
+        "name": "Granero por voltio de electrones esteradiano,",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A17",
+        "name": "Granero por sterdian",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A18",
+        "name": "Becquerel por kilogramo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A19",
+        "name": "Becquerel por metro cúbico",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A2",
+        "name": "Amperio por centímetro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A20",
+        "name": "Unidad térmica británica por segundo pie cuadrado grado Rankin",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A21",
+        "name": "Unidad térmica británica por libra grado Rankin",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A22",
+        "name": "Unidad térmica británica por segundo pie grado Rankin",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A23",
+        "name": "Unidad térmica británica por hora pie cuadrado grado Rankin",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A24",
+        "name": "Candela por metro cuadrado",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A25",
+        "name": "Cheval vapeur",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A26",
+        "name": "Medidor de culombio",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A27",
+        "name": "Medidor de culombio al cuadrado por voltio",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A28",
+        "name": "Coulomb por centímetro cúbico",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A29",
+        "name": "Coulomb por metro cúbico",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A3",
+        "name": "Amperio por milímetro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A30",
+        "name": "Coulomb por milímetro cúbico",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A31",
+        "name": "Coulomb por kilogramo segundo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A32",
+        "name": "Coulomb por mol",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A33",
+        "name": "Coulomb por centímetro cuadrado",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A34",
+        "name": "Coulomb por metro cuadrado",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A35",
+        "name": "Coulomb por milímetro cuadrado",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A36",
+        "name": "Centímetro cúbico por mol",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A37",
+        "name": "Nformaci cúbico por mol",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A38",
+        "name": "Metro cúbico por coulomb",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A39",
+        "name": "Metro cúbico por kilogramo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A4",
+        "name": "Amperio por centímetro cuadrado",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A40",
+        "name": "Metro cúbico por mol",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A41",
+        "name": "Amperio por metro cuadrado",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A42",
+        "name": "Curie por kilogramo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A43",
+        "name": "Tonelaje de peso muerto",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A44",
+        "name": "Decalitro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A45",
+        "name": "Decámetro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A47",
+        "name": "Decitex",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A48",
+        "name": "Grado Rankin",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A49",
+        "name": "Negador",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A5",
+        "name": "Amperio metro cuadrado",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A50",
+        "name": "Dyn segundo por centímetro cúbico",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A51",
+        "name": "Dina segundo por centímetro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A52",
+        "name": "Dina segundo por centímetro al quinto",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A53",
+        "name": "Electronvolt",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A54",
+        "name": "Electronvoltio por metro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A55",
+        "name": "Metro electronvolt cuadrado",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A56",
+        "name": "Electronvoltio de metro cuadrado por kilogramo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A57",
+        "name": "Ergio",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A58",
+        "name": "Erg por centímetro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A6",
+        "name": "Amperio por metro cuadrado kelvin al cuadrado",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A60",
+        "name": "Erg por centímetro cúbico",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A61",
+        "name": "Erg por gramo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A62",
+        "name": "Erg por gramo de segundo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A63",
+        "name": "Erg por segundo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A64",
+        "name": "Erg por segundo centímetro cuadrado",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A65",
+        "name": "Erg por centímetro cuadrado segundo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A66",
+        "name": "Erg centímetro cuadrado",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A67",
+        "name": "Ergímetro cuadrado por gramo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A68",
+        "name": "Exajulio",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A69",
+        "name": "Faradio por metro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A7",
+        "name": "Amperio por milímetro cuadrado",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A70",
+        "name": "Femtojoule",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A71",
+        "name": "Femtometro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A73",
+        "name": "Pie por segundo al cuadrado",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A74",
+        "name": "Pie-fuerza de la libra por segundo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A75",
+        "name": "Tonelada de carga",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A76",
+        "name": "Galón",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A77",
+        "name": "Unidad de desplazamiento CGS gaussiana",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A78",
+        "name": "Unidad gaussiana CGS de corriente eléctrica.",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A79",
+        "name": "Unidad Gaussian CGS de carga eléctrica.",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A8",
+        "name": "Amperio segundo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A80",
+        "name": "Unidad Gaussian CGS de intensidad de campo eléctrico.",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A81",
+        "name": "Unidad Gaussian CGS de polarización eléctrica.",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A82",
+        "name": "Unidad Gaussian CGS de potencial eléctrico.",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A83",
+        "name": "Unidad Gaussiana CGS de magnetización.",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A84",
+        "name": "Gigacoulomb por metro cúbico",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A85",
+        "name": "Gigaelectronvolt",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A86",
+        "name": "Gigahercios",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A87",
+        "name": "Gigaohm",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A88",
+        "name": "Medidor de gigaohm",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A89",
+        "name": "Gigapascal",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A9",
+        "name": "Tarifa",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A90",
+        "name": "Gigavatios",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A91",
+        "name": "Gon",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A93",
+        "name": "Gramo por metro cúbico",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A94",
+        "name": "Gramo por mol",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A95",
+        "name": "Gris",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A96",
+        "name": "Gris por segundo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A97",
+        "name": "Hectopascal",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "A98",
+        "name": "Henry por metro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "AA",
+        "name": "Bola",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "AB",
+        "name": "Paquete a granel",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "ACR",
+        "name": "Acre",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "AD",
+        "name": "Byte",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "AE",
+        "name": "Amperio por metro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "AH",
+        "name": "Minuto adicional",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "AI",
+        "name": "Minuto promedio por llamada",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "AJ",
+        "name": "Policía",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "AK",
+        "name": "Braza",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "AL",
+        "name": "Nfor de acceso",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "AM",
+        "name": "Ampolla",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "AMH",
+        "name": "Hora amperio",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "AMP",
+        "name": "Amperio",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "ANA",
+        "name": "Año",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "AP",
+        "name": "Solo libra de aluminio",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "APZ",
+        "name": "Onza troy o onza de boticarios",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "AQ",
+        "name": "Unidad de factor antihemofílico (AHF)",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "AR",
+        "name": "Supositorio",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "ASM",
+        "name": "Fuerza alcohólica en masa",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "ASU",
+        "name": "Fuerza alcohólica por volumen",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "ATM",
+        "name": "Ambiente estándar",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "ATT",
+        "name": "Ambiente técnico",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "AV",
+        "name": "Cápsula",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "AW",
+        "name": "Vial lleno de polvo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "AZ",
+        "name": "Unidad térmica británica por libra",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B0",
+        "name": "Btu por pie cúbico",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B1",
+        "name": "Barril (US) por día",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B11",
+        "name": "Julios por kilogramo kelvin",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B12",
+        "name": "Julios por metro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B13",
+        "name": "Julios por metro cuadrado",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B14",
+        "name": "Julios por metro a la cuarta potencia",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B15",
+        "name": "Julios por mol",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B16",
+        "name": "Julios por mol kelvin",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B18",
+        "name": "Joule segundo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B2",
+        "name": "Litera",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B20",
+        "name": "Joule metro cuadrado por kilogramo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B21",
+        "name": "Kelvin por vatio",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B22",
+        "name": "Kiloampere",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B23",
+        "name": "Kiloampere por metro cuadrado",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B24",
+        "name": "Kiloampere por metro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B25",
+        "name": "Kilobecquerel por kilogramo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B26",
+        "name": "Kilocoulomb",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B27",
+        "name": "Kilocoulomb por metro cúbico",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B28",
+        "name": "Kilocoulomb por metro cuadrado",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B29",
+        "name": "Kiloelectronvolt",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B3",
+        "name": "Libra de bateo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B31",
+        "name": "Kilogramo metro por segundo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B32",
+        "name": "Kilogramo metro cuadrado",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B33",
+        "name": "Kilogramo metro cuadrado por segundo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B34",
+        "name": "Kilogramo por decímetro cúbico",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B35",
+        "name": "Kilogramo por litro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B36",
+        "name": "Caloría termoquímica por gramo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B37",
+        "name": "Kilogramo de fuerza",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B38",
+        "name": "Metro de fuerza de kilogramo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B39",
+        "name": "Metro de fuerza de kilogramo por segundo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B4",
+        "name": "Barril, imperial",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B40",
+        "name": "Kilogramo de fuerza por metro cuadrado",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B41",
+        "name": "Kilojoule per kelvin",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B42",
+        "name": "Kilojoule por kilogramo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B43",
+        "name": "Kilojoule por kilogramo kelvin",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B44",
+        "name": "Kilojoule por mol",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B45",
+        "name": "Kilomol",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B46",
+        "name": "Kilomol por metro cúbico",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B47",
+        "name": "Kilonewton",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B48",
+        "name": "Medidor de kilonewton",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B49",
+        "name": "Kiloohm",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B5",
+        "name": "Palanquilla",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B50",
+        "name": "Medidor de kiloohm",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B51",
+        "name": "Kilopond",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B52",
+        "name": "Kilosegundo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B53",
+        "name": "Kilosiemens",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B54",
+        "name": "Kilosiemens por metro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B55",
+        "name": "Kilovoltios por metro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B56",
+        "name": "Kiloveber por metro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B57",
+        "name": "Año luz",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B58",
+        "name": "Litro por mol",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B59",
+        "name": "Hora lumen",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B6",
+        "name": "Bollo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B60",
+        "name": "Lumen por metro cuadrado",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B61",
+        "name": "Lumen por vatio",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B62",
+        "name": "Lumen segundo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B63",
+        "name": "Hora de lux",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B64",
+        "name": "Lux segundo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B65",
+        "name": "Maxwell",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B66",
+        "name": "Megaamperios por metro cuadrado",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B67",
+        "name": "Megabecquerel por kilogramo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B69",
+        "name": "Megacoulomb por metro cúbico",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B7",
+        "name": "Ciclo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B70",
+        "name": "Megacoulomb por metro cuadrado",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B71",
+        "name": "Megaelectronvolt",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B72",
+        "name": "Megagramo por metro cúbico",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B73",
+        "name": "Meganewton",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B74",
+        "name": "Medidor de meganewton",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B75",
+        "name": "Megaohm",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B76",
+        "name": "Metro megaohm",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B77",
+        "name": "Megasiemens por metro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B78",
+        "name": "Megavoltio",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B79",
+        "name": "Megavolt por metro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B8",
+        "name": "Julios por metro cúbico",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B81",
+        "name": "Metro recíproco cuadrado recíproco segundo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B83",
+        "name": "Metro a la cuarta potencia",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B84",
+        "name": "Microamperios",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B85",
+        "name": "Microbar",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B86",
+        "name": "Microcoulomb",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B87",
+        "name": "Microcoulomb por metro cúbico",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B88",
+        "name": "Microcoulomb por metro cuadrado",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B89",
+        "name": "Microfarada por metro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B9",
+        "name": "Batt",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B90",
+        "name": "Microhenry",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B91",
+        "name": "Microhenry por metro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B92",
+        "name": "Micronewton",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B93",
+        "name": "Medidor de micronewton",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B94",
+        "name": "Microohm",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B95",
+        "name": "Medidor de microohmios",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B96",
+        "name": "Micropascal",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B97",
+        "name": "Microradiano",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B98",
+        "name": "Microsegundo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "B99",
+        "name": "Microsiemens",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "BAR",
+        "name": "Bar",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "BB",
+        "name": "Caja base",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "BD",
+        "name": "Tablero",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "BFT",
+        "name": "Pie de tabla",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "BG",
+        "name": "Bolso",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "BH",
+        "name": "Cepillo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "BHP",
+        "name": "Potencia al freno",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "BIL",
+        "name": "Trillón de dólares",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "BJ",
+        "name": "Cangilón",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "BK",
+        "name": "Cesta",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "BL",
+        "name": "Bala",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "BLD",
+        "name": "Barril seco",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "BLL",
+        "name": "Barril (EE. UU.) (petróleo, etc.)",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "BO",
+        "name": "Botella",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "BP",
+        "name": "Cien pies de tabla",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "BQL",
+        "name": "Becquerel",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "BR",
+        "name": "Bar",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "BT",
+        "name": "Tornillo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "BTU",
+        "name": "Unidad Térmica Británica",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "BUA",
+        "name": "Bushel (EE. UU.)",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "BUI",
+        "name": "Bushel (Reino Unido)",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "BW",
+        "name": "Peso base",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "BX",
+        "name": "Caja",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "BZ",
+        "name": "Millones de BTUs",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C0",
+        "name": "Llamada",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C1",
+        "name": "Producto compuesto libra (peso total)",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C10",
+        "name": "Millifarad",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C11",
+        "name": "Miligal",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C12",
+        "name": "Miligramo por metro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C13",
+        "name": "Miligray",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C14",
+        "name": "Milihenry",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C15",
+        "name": "Milijoule",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C16",
+        "name": "Milímetro por segundo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C17",
+        "name": "Milímetro cuadrado por segundo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C18",
+        "name": "Milimol",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C19",
+        "name": "Mol por kilogramo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C2",
+        "name": "Carset",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C20",
+        "name": "Millinewton",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C22",
+        "name": "Millinewton por metro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C23",
+        "name": "Medidor de miliohm",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C24",
+        "name": "Segundo milipascal",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C25",
+        "name": "Miliradian",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C26",
+        "name": "Milisegundo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C27",
+        "name": "Milisiemens",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C28",
+        "name": "Milisievert",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C29",
+        "name": "Millitesla",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C3",
+        "name": "Microvoltios por metro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C30",
+        "name": "Milivoltios por metro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C31",
+        "name": "Milivatios",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C32",
+        "name": "Milivatios por metro cuadrado",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C33",
+        "name": "Milliweber",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C34",
+        "name": "Topo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C35",
+        "name": "Mol por decímetro cúbico",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C36",
+        "name": "Mol por metro cúbico",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C38",
+        "name": "Mol por litro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C39",
+        "name": "Nanoampere",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C4",
+        "name": "Partido de carga",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C40",
+        "name": "Nanocoulomb",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C41",
+        "name": "Nanofarad",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C42",
+        "name": "Nanofarad por metro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C43",
+        "name": "Nanohenry",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C44",
+        "name": "Nanohenry por metro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C45",
+        "name": "Nanometro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C46",
+        "name": "Medidor de nanoohm",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C47",
+        "name": "Nanosegundo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C48",
+        "name": "Nanotesla",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C49",
+        "name": "Nanovatio",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C5",
+        "name": "Costo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C50",
+        "name": "Neper",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C51",
+        "name": "Neper por segundo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C52",
+        "name": "Picometro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C53",
+        "name": "Metro de newton segundo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C54",
+        "name": "Newton metro cuadrado kilogramo cuadrado",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C55",
+        "name": "Newton por metro cuadrado",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C56",
+        "name": "Newton por milímetro cuadrado",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C57",
+        "name": "Newton segundo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C58",
+        "name": "Newton segundo por metro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C59",
+        "name": "Octava",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C6",
+        "name": "Célula",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C60",
+        "name": "Ohm centímetro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C61",
+        "name": "Ohm metro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C62",
+        "name": "Uno",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C63",
+        "name": "Parsec",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C64",
+        "name": "Pascal por kelvin",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C65",
+        "name": "Segundo pascal",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C66",
+        "name": "Segundo pascal por metro cúbico",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C67",
+        "name": "Segundo pascal por metro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C68",
+        "name": "Petajoule",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C69",
+        "name": "Telefono",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C7",
+        "name": "Centipoise",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C70",
+        "name": "Picoampere",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C71",
+        "name": "Picocoulomb",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C72",
+        "name": "Picofarad por metro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C73",
+        "name": "Picohenry",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C75",
+        "name": "Picowatt",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C76",
+        "name": "Picowatt por metro cuadrado",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C77",
+        "name": "Medidor de libras",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C78",
+        "name": "Fuerza de libra",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C8",
+        "name": "Millicoulomb por kilogramo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C80",
+        "name": "Rad",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C81",
+        "name": "Radián",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C82",
+        "name": "Medidor de radianes al cuadrado por mol",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C83",
+        "name": "Medidor de radianes al cuadrado por kilogramo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C84",
+        "name": "Radian por metro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C85",
+        "name": "Â € ngstr recíproco “m",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C86",
+        "name": "Metro cúbico recíproco",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C87",
+        "name": "Metro cúbico recíproco por segundo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C88",
+        "name": "Voltios de electrones recíprocos por metro cúbico",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C89",
+        "name": "Henry Recíproco",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C9",
+        "name": "Grupo de bobina",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C90",
+        "name": "Joule recíproco por metro cúbico",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C91",
+        "name": "Kelvin recíproco o kelvin al poder menos uno",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C92",
+        "name": "Medidor recíproco",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C93",
+        "name": "Metro cuadrado recíproco",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C94",
+        "name": "Minuto recíproco",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C95",
+        "name": "Mole recíproco",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C96",
+        "name": "Pascal recíproco o pascal a la potencia menos uno.",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C97",
+        "name": "Segundo recíproco",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C98",
+        "name": "Segundo recíproco por metro cúbico",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "C99",
+        "name": "Segundo recíproco por metro cuadrado",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "CA",
+        "name": "Caja",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "CCT",
+        "name": "Capacidad de carga en toneladas métricas.",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "CDL",
+        "name": "Candela",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "CE",
+        "name": "Cada uno por mes",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "CEL",
+        "name": "Grado Celsius",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "CEN",
+        "name": "Cien",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "CG",
+        "name": "Tarjeta",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "CGM",
+        "name": "Centigramo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "CH",
+        "name": "Envase",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "CJ",
+        "name": "Cono",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "CK",
+        "name": "Conector",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "CKG",
+        "name": "Coulomb por kilogramo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "CL",
+        "name": "Bobina",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "CLF",
+        "name": "Cientos de licencia",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "CLT",
+        "name": "Centilitro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "CMK",
+        "name": "Centímetro cuadrado",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "CMQ",
+        "name": "Centímetro cúbico",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "CMT",
+        "name": "Centímetro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "CNP",
+        "name": "Paquete de cien",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "CNT",
+        "name": "Cental (Reino Unido)",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "CO",
+        "name": "Garrafón",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "COU",
+        "name": "Culombio",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "CQ",
+        "name": "Cartucho",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "CR",
+        "name": "Caja",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "CS",
+        "name": "Caso",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "CT",
+        "name": "Caja de cartón",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "CTM",
+        "name": "Quilate métrico",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "CU",
+        "name": "Vaso",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "CUR",
+        "name": "Curie",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "CV",
+        "name": "Cubrir",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "CWA",
+        "name": "Cien libras (quintales) / cien pesos (US)",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "CWI",
+        "name": "Cien pesos (Reino Unido)",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "CY",
+        "name": "Cilindro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "CZ",
+        "name": "Combo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D1",
+        "name": "Segundo recíproco por esteradiano",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D10",
+        "name": "Siemens por metro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D12",
+        "name": "Siemens metro cuadrado por mol",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D13",
+        "name": "Sievert",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D14",
+        "name": "Mil yardas lineales",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D15",
+        "name": "Sone",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D16",
+        "name": "Centímetro cuadrado por ergio",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D17",
+        "name": "Centímetro cuadrado por erg esterlina",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D18",
+        "name": "Metro kelvin",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D19",
+        "name": "Kelvin metro cuadrado por vatio",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D2",
+        "name": "Segundo recíproco por metros cuadrados esteradianos",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D20",
+        "name": "Metro cuadrado por julio",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D21",
+        "name": "Metro cuadrado por kilogramo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D22",
+        "name": "Metro cuadrado por mol",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D23",
+        "name": "Pluma gramo (proteína)",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D24",
+        "name": "Metro cuadrado por esterilizador",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D25",
+        "name": "Metro cuadrado por julios esteradianos",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D26",
+        "name": "Metro cuadrado por voltio segundo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D27",
+        "name": "Esteradiano",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D28",
+        "name": "Sifón",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D29",
+        "name": "Terahercios",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D30",
+        "name": "Terajulio",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D31",
+        "name": "Teravatio",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D32",
+        "name": "Hora de teravatio",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D33",
+        "name": "Tesla",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D34",
+        "name": "Texas",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D35",
+        "name": "Caloría termoquímica",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D37",
+        "name": "Caloría termoquímica por gramo kelvin",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D38",
+        "name": "Calorías termoquímicas por segundo centímetro kelvin",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D39",
+        "name": "Calorías termoquímicas por segundo centímetro cuadrado kelvin",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D40",
+        "name": "Mil litros",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D41",
+        "name": "Tonelada por metro cúbico",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D42",
+        "name": "Año tropical",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D43",
+        "name": "Unidad de masa atómica unificada",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D44",
+        "name": "Var",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D45",
+        "name": "Voltios al cuadrado por kelvin al cuadrado",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D46",
+        "name": "Voltio – amperio",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D47",
+        "name": "Voltio por centímetro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D48",
+        "name": "Voltio por kelvin",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D49",
+        "name": "Milivoltios por kelvin",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D5",
+        "name": "Kilogramo por centímetro cuadrado",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D50",
+        "name": "Voltios por metro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D51",
+        "name": "Voltios por milímetro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D52",
+        "name": "Vatios por kelvin",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D53",
+        "name": "Vatios por metro kelvin",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D54",
+        "name": "Vatios por metro cuadrado",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D55",
+        "name": "Vatios por metro cuadrado kelvin",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D56",
+        "name": "Vatios por metro cuadrado de kelvin a la cuarta potencia",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D57",
+        "name": "Vatios por steradian",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D58",
+        "name": "Vatios por metro cuadrado esterlino",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D59",
+        "name": "Weber por metro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D6",
+        "name": "Röntgen por segundo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D60",
+        "name": "Weber por milímetro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D61",
+        "name": "Minuto",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D62",
+        "name": "Segundo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D63",
+        "name": "Libro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D64",
+        "name": "Bloquear",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D65",
+        "name": "Redondo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D66",
+        "name": "Casete",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D67",
+        "name": "Dólar por hora",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D69",
+        "name": "Pulgada a la cuarta potencia",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D7",
+        "name": "Sandwich",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D70",
+        "name": "Tabla Internacional (IT) caloría",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D71",
+        "name": "Tabla Internacional (IT) calorías por segundo centímetro kelvin",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D72",
+        "name": "Tabla Internacional (IT) calorías por segundo centímetro cuadrado kelvin",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D73",
+        "name": "Joule metro cuadrado",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D74",
+        "name": "Kilogramo por mol",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D75",
+        "name": "Tabla Internacional (IT) calorías por gramo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D76",
+        "name": "Tabla Internacional (IT) calorías por gramo kelvin",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D77",
+        "name": "Megacoulomb",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D79",
+        "name": "Haz",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D8",
+        "name": "Puntaje de drenaje",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D80",
+        "name": "Microwatt",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D81",
+        "name": "Microtesla",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D82",
+        "name": "Microvoltio",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D83",
+        "name": "Medidor de millinewton",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D85",
+        "name": "Microwatt por metro cuadrado",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D86",
+        "name": "Millicoulomb",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D87",
+        "name": "Milimol por kilogramo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D88",
+        "name": "Millicoulomb por metro cúbico",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D89",
+        "name": "Millicoulomb por metro cuadrado",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D9",
+        "name": "Dina por centímetro cuadrado",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D90",
+        "name": "Metro cúbico (neto)",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D91",
+        "name": "Movimiento rápido del ojo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D92",
+        "name": "Banda",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D93",
+        "name": "Segundo por metro cúbico",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D94",
+        "name": "Segundo por metro cúbico radianes",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D95",
+        "name": "Julios por gramo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D96",
+        "name": "Libra bruta",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D97",
+        "name": "Carga de palet / unidad",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D98",
+        "name": "Libra de masa",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "D99",
+        "name": "Manga",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "DAA",
+        "name": "Despreciar",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "DAD",
+        "name": "Diez dias",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "DAY",
+        "name": "Día",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "DB",
+        "name": "Libra seca",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "DC",
+        "name": "Disco",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "DD",
+        "name": "La licenciatura",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "DE",
+        "name": "Acuerdo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "DEC",
+        "name": "Década",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "DG",
+        "name": "Decigramo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "DI",
+        "name": "Dispensador",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "DJ",
+        "name": "Decagramo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "DLT",
+        "name": "Decilitro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "DMK",
+        "name": "Nformaci cuadrado",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "DMQ",
+        "name": "Decímetro cúbico",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "DMT",
+        "name": "Decímetro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "DN",
+        "name": "Medidor de decinewton",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "DPC",
+        "name": "Docena pieza",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "DPR",
+        "name": "Docena par",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "DPT",
+        "name": "Tonelaje de desplazamiento",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "DQ",
+        "name": "Registro de datos",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "DR",
+        "name": "Tambor",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "DRA",
+        "name": "Dram (US)",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "DRI",
+        "name": "Dram (Reino Unido)",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "DRL",
+        "name": "Docena rollo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "DRM",
+        "name": "Dracma (Reino Unido)",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "DS",
+        "name": "Monitor",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "DT",
+        "name": "Tonelada seca",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "DTN",
+        "name": "Decitonne",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "DU",
+        "name": "Dina",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "DWT",
+        "name": "Pennyweight",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "DX",
+        "name": "Dina por centímetro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "DY",
+        "name": "Libro de directorio",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "DZN",
+        "name": "Docena",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "DZP",
+        "name": "Paquete de doce",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "E2",
+        "name": "Cinturón",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "E3",
+        "name": "Remolque",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "E4",
+        "name": "Kilogramo bruto",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "E5",
+        "name": "Tonelada métrica larga",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "EA",
+        "name": "Cada",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "EB",
+        "name": "Casilla de correo electrónico",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "EN",
+        "name": "Onza por yarda cuadrada",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "EP",
+        "name": "Paquete de once",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "EQ",
+        "name": "Galón equivalente",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "EV",
+        "name": "Sobre",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "F1",
+        "name": "Mil pies cúbicos por día",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "F9",
+        "name": "Fibra por centímetro cúbico de aire",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "FAH",
+        "name": "Grado Fahrenheit",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "FAR",
+        "name": "Faradio",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "FB",
+        "name": "Campo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "FC",
+        "name": "Mil pies cúbicos",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "FD",
+        "name": "Millón de partículas por pie cúbico",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "FE",
+        "name": "Pie de pista",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "FF",
+        "name": "Cien metros cúbicos",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "FG",
+        "name": "Parche transdérmico",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "FH",
+        "name": "Micromol",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "FL",
+        "name": "Tonelada en escamas",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "FM",
+        "name": "Millones de pies cúbicos",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "FOT",
+        "name": "Pie",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "FP",
+        "name": "Libra por pie cuadrado",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "FR",
+        "name": "Pie por minuto",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "FS",
+        "name": "Pie por segundo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "FTK",
+        "name": "Pie cuadrado",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "FTQ",
+        "name": "Pie cubico",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "G2",
+        "name": "US galones por minuto",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "G3",
+        "name": "Galon imperial por minuto",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "G7",
+        "name": "Hoja de microficha",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "GB",
+        "name": "Galón (US) por día",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "GBQ",
+        "name": "Gigabecquerel",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "GC",
+        "name": "Gramo por 100 gramo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "GD",
+        "name": "Barril bruto",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "GE",
+        "name": "Libra por galón (US)",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "GF",
+        "name": "Gramo por metro (gramo por 100 centímetros)",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "GFI",
+        "name": "Gramo de isótopo fisionable",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "GGR",
+        "name": "Gramo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "GH",
+        "name": "Medio galón (EE. UU.)",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "GIA",
+        "name": "Branquias",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "GII",
+        "name": "Gill (Reino Unido)",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "GJ",
+        "name": "Gramo por mililitro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "GL",
+        "name": "Gramo por litro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "GLD",
+        "name": "Galón seco (EE. UU.)",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "GLI",
+        "name": "Galón (Reino Unido)",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "GLL",
+        "name": "Galón",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "GM",
+        "name": "Gramo por metro cuadrado",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "GN",
+        "name": "Galón bruto",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "GO",
+        "name": "Miligramos por metro cuadrado",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "GP",
+        "name": "Miligramo por metro cúbico",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "GQ",
+        "name": "Microgramos por metro cúbico",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "GRM",
+        "name": "Gramo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "GRN",
+        "name": "Grano",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "GRO",
+        "name": "Bruto",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "GRT",
+        "name": "Tonelada de registro bruto",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "GT",
+        "name": "Tonelada bruta",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "GV",
+        "name": "Gigajoule",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "GW",
+        "name": "Galón por mil pies cúbicos",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "GWH",
+        "name": "Hora de gigavatios",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "GY",
+        "name": "Patio bruto",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "GZ",
+        "name": "Sistema de medición",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "H1",
+        "name": "Media página – electrónica",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "H2",
+        "name": "Medio litro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "HA",
+        "name": "Madeja",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "HAR",
+        "name": "Hectárea",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "HBA",
+        "name": "Hectobar",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "HBX",
+        "name": "Cien cajas",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "HC",
+        "name": "Cien cuentas",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "HD",
+        "name": "Media docena",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "HF",
+        "name": "Cien pies",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "HGM",
+        "name": "Hectogramo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "HH",
+        "name": "Cien pies cúbicos",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "HI",
+        "name": "Cien hojas",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "HIU",
+        "name": "Cien unidades internacionales",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "HJ",
+        "name": "Caballo métrico",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "HK",
+        "name": "Cien kilogramos",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "HL",
+        "name": "Cien pies (lineales)",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "HLT",
+        "name": "Hectolitro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "HM",
+        "name": "Milla por hora",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "HMQ",
+        "name": "Millones de metros cúbicos",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "HMT",
+        "name": "Hectómetro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "HN",
+        "name": "Milímetro convencional de mercurio",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "HO",
+        "name": "Cien onzas troy",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "HP",
+        "name": "Milímetro convencional de agua",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "HPA",
+        "name": "Hectolitro de alcohol puro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "HS",
+        "name": "Cien pies cuadrados",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "HT",
+        "name": "Media hora",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "HTZ",
+        "name": "Hertz",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "HUR",
+        "name": "Hora",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "HY",
+        "name": "Cien yardas",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "IA",
+        "name": "Pulgada libra",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "IC",
+        "name": "Contar por pulgada",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "IE",
+        "name": "Persona",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "IF",
+        "name": "Pulgadas de agua",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "II",
+        "name": "Columna pulgada",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "IL",
+        "name": "Pulgada por minuto",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "IM",
+        "name": "Impresión",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "INH",
+        "name": "Pulgada",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "INK",
+        "name": "Pulgada cuadrada",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "INQ",
+        "name": "Pulgada en cubos",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "IP",
+        "name": "Póliza de seguros",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "IT",
+        "name": "Conteo por centímetro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "ITS",
+        "name": "Piedra (Reino Unido)",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "IU",
+        "name": "Pulgada por segundo (velocidad lineal)",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "IV",
+        "name": "Pulgada por segundo al cuadrado (aceleración)",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "J2",
+        "name": "Julios por kilogramo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "JB",
+        "name": "Jumbo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "JE",
+        "name": "Joule por kelvin",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "JG",
+        "name": "Jarra",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "JK",
+        "name": "Megajulio por kilogramo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "JM",
+        "name": "Megajulio por metro cúbico",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "JO",
+        "name": "Articulación",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "JOU",
+        "name": "Joule",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "JR",
+        "name": "Tarro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "K1",
+        "name": "Demanda de kilovatios",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "K2",
+        "name": "Kilovoltios amperios reactivos de demanda",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "K3",
+        "name": "Kilovoltio amperio hora reactiva",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "K5",
+        "name": "Amperios kilovoltios (reactivos)",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "K6",
+        "name": "Kilolitro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "KA",
+        "name": "Pastel",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "KB",
+        "name": "Kilocharacter",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "KBA",
+        "name": "Kilobar",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "KD",
+        "name": "Kilogramo decimal",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "KEL",
+        "name": "Kelvin",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "KF",
+        "name": "Kilopacket",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "KG",
+        "name": "Barrilete",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "KGM",
+        "name": "Kilogramo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "KGS",
+        "name": "Kilogramo por segundo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "KHZ",
+        "name": "Kilohercio",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "KI",
+        "name": "Kilogramo por milímetro de ancho",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "KJ",
+        "name": "Kilosegmento",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "KJO",
+        "name": "Kilojoule",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "KL",
+        "name": "Kilogramo por metro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "KMH",
+        "name": "Kilómetro por hora",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "KMK",
+        "name": "Kilometro cuadrado",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "KMQ",
+        "name": "Kilogramo por metro cúbico",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "KNI",
+        "name": "Kilogramo de nitrógeno",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "KNS",
+        "name": "Kilogramo de sustancia nombrada",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "KNT",
+        "name": "Nudo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "KO",
+        "name": "Milliequivalencia de potasa cáustica por gramo de producto.",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "KPA",
+        "name": "Kilopascal",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "KPH",
+        "name": "Kilogramo de hidróxido de potasio (potasa cáustica)",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "KPO",
+        "name": "Kilogramo de óxido de potasio",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "KPP",
+        "name": "Kilogramo de pentóxido de fósforo (anhídrido fosfórico)",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "KR",
+        "name": "KilorÃ¶ntgen",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "KS",
+        "name": "Mil libras por pulgada cuadrada",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "KSD",
+        "name": "Kilogramo de sustancia 90% seca",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "KSH",
+        "name": "Kilogramo de hidróxido de sodio (soda cáustica)",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "KT",
+        "name": "Equipo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "KTM",
+        "name": "Kilómetro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "KTN",
+        "name": "Kilotonne",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "KUR",
+        "name": "Kilogramo de uranio",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "KVA",
+        "name": "Kilovoltio – ampere",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "KVR",
+        "name": "Kilovar",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "KVT",
+        "name": "Kilovoltio",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "KW",
+        "name": "Kilogramos por milímetro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "KWH",
+        "name": "Kilovatios hora",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "KWT",
+        "name": "Kilovatio",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "KX",
+        "name": "Mililitro por kilogramo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "L2",
+        "name": "Litro por minuto",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "LA",
+        "name": "Libra por pulgada cúbica",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "LBR",
+        "name": "Libra",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "LBT",
+        "name": "Libra troy",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "LC",
+        "name": "Centímetro lineal",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "LD",
+        "name": "Litro por día",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "LE",
+        "name": "Lite",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "LEF",
+        "name": "Hoja",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "LF",
+        "name": "Pie lineal",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "LH",
+        "name": "Hora de trabajo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "LI",
+        "name": "Pulgada lineal",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "LJ",
+        "name": "Spray grande",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "LK",
+        "name": "Enlazar",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "LM",
+        "name": "Metro lineal",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "LN",
+        "name": "Longitud",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "LO",
+        "name": "Mucho",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "LP",
+        "name": "Libra liquida",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "LPA",
+        "name": "Litro de alcohol puro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "LR",
+        "name": "Capa",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "LS",
+        "name": "Suma global",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "LTN",
+        "name": "Ton (Reino Unido) o longton (EE. UU.)",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "LTR",
+        "name": "Litro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "LUM",
+        "name": "Lumen",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "LUN",
+        "name": "Mes",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "LUX",
+        "name": "Lux",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "LX",
+        "name": "Yarda lineal por libra",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "LY",
+        "name": "Yarda lineal",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "M0",
+        "name": "Cinta magnética",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "M1",
+        "name": "Miligramos por litro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "M4",
+        "name": "Valor monetario",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "M5",
+        "name": "Microcurie",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "M7",
+        "name": "Micropulgada",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "M9",
+        "name": "Millones de Btu por 1000 pies cúbicos",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "MA",
+        "name": "Máquina por unidad",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "MAL",
+        "name": "Mega litro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "MAM",
+        "name": "Megametro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "MAW",
+        "name": "Megavatio",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "MBE",
+        "name": "Mil equivalentes de ladrillo estándar",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "MBF",
+        "name": "Mil pies de tabla",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "MBR",
+        "name": "Milibar",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "MC",
+        "name": "Microgramo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "MCU",
+        "name": "Milicurie",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "MD",
+        "name": "Aire seco tonelada métrica",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "MF",
+        "name": "Miligramo por pie cuadrado por lado",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "MG",
+        "name": "Miligramo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "MHZ",
+        "name": "Megahercio",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "MIK",
+        "name": "Milla cuadrada",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "MIL",
+        "name": "Mil",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "MIN",
+        "name": "Minuto",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "MIO",
+        "name": "Millón",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "MIU",
+        "name": "Millones de unidades internacionales",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "MK",
+        "name": "Miligramo por pulgada cuadrada",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "MLD",
+        "name": "Mil millones",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "MLT",
+        "name": "Mililitro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "MMK",
+        "name": "Milímetro cuadrado",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "MMQ",
+        "name": "Milímetro cúbico",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "MMT",
+        "name": "Milímetro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "MNI",
+        "name": "Milla nautica",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "MPA",
+        "name": "Megapascal",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "MQ",
+        "name": "Mil metros",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "MQH",
+        "name": "Metro cúbico por hora",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "MQS",
+        "name": "Metro cúbico por segundo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "MSK",
+        "name": "Metro por segundo al cuadrado",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "MT",
+        "name": "Estera",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "MTK",
+        "name": "Metro cuadrado",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "MTQ",
+        "name": "Metro cúbico",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "MTR",
+        "name": "Metro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "MTS",
+        "name": "Metro por segundo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "MV",
+        "name": "Número de mults",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "MVA",
+        "name": "Megavolt – ampere",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "MWH",
+        "name": "Megavatios hora (1000 kW.h)",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "N1",
+        "name": "Calorías de la pluma",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "N2",
+        "name": "Número de líneas",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "N3",
+        "name": "Punto de impresión",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "NA",
+        "name": "Miligramo por kilogramo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "NAR",
+        "name": "Número de artículos",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "NB",
+        "name": "Barcaza",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "NBB",
+        "name": "Número de bobinas",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "NC",
+        "name": "Coche",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "NCL",
+        "name": "Número de celdas",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "ND",
+        "name": "Barril neto",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "NE",
+        "name": "Litro neto",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "NEW",
+        "name": "Newton",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "NF",
+        "name": "Mensaje",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "NG",
+        "name": "Galón neto (nosotros)",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "NH",
+        "name": "Hora del mensaje",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "NI",
+        "name": "Galón imperial neto",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "NIU",
+        "name": "Número de unidades internacionales",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "NJ",
+        "name": "Número de pantallas",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "NL",
+        "name": "Carga",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "NMP",
+        "name": "Número de paquetes",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "NN",
+        "name": "Entrenar",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "NPL",
+        "name": "Número de parcelas",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "NPR",
+        "name": "Número de pares",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "NQ",
+        "name": "Mho",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "NR",
+        "name": "Micromho",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "NRL",
+        "name": "Número de rollos",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "NT",
+        "name": "Tonelada neta",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "NTT",
+        "name": "Registro neto de toneladas",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "NU",
+        "name": "Medidor de newton",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "NV",
+        "name": "Vehículo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "NX",
+        "name": "Parte por mil",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "NY",
+        "name": "Libra por aire seco tonelada métrica",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "OA",
+        "name": "Panel",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "OCS",
+        "name": "Puntuación",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "OHM",
+        "name": "Ohm",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "ONZ",
+        "name": "Onza",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "OP",
+        "name": "Dos paquetes",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "OT",
+        "name": "Hora extra",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "OZA",
+        "name": "Onza líquida (US)",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "OZI",
+        "name": "Onza líquida (Reino Unido)",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "P0",
+        "name": "Pagina – electronica",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "P1",
+        "name": "Por ciento",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "P2",
+        "name": "Libra por pie",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "P3",
+        "name": "Paquete de tres",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "P4",
+        "name": "Paquete de cuatro",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "P5",
+        "name": "Paquete de cinco",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "P6",
+        "name": "Paquete de seis",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "P7",
+        "name": "Paquete de siete",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "P8",
+        "name": "Paquete de ocho",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "P9",
+        "name": "Paquete de nueve",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "PA",
+        "name": "Paquete",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "PAL",
+        "name": "Pascal",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "PB",
+        "name": "Par de pulgadas",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "PD",
+        "name": "Almohadilla",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "PE",
+        "name": "Equivalente en libras",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "PF",
+        "name": "Palet (ascensor)",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "PG",
+        "name": "Plato",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "PGL",
+        "name": "Galón de prueba",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "Pi",
+        "name": "Tono",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "PK",
+        "name": "Paquete",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "PL",
+        "name": "Cubo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "PM",
+        "name": "Porcentaje de libra",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "PN",
+        "name": "Libra neta",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "PO",
+        "name": "Libra por pulgada de longitud",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "PQ",
+        "name": "Página por pulgada",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "PR",
+        "name": "Par",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "PT",
+        "name": "Pinta",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "PTD",
+        "name": "Pinta seca",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "PTI",
+        "name": "Pinta (Reino Unido)",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "PTL",
+        "name": "Pinta liquida (US)",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "PU",
+        "name": "Bandeja / paquete de bandeja",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "PV",
+        "name": "Media pinta (US)",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "PW",
+        "name": "Libra por pulgada de ancho",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "PY",
+        "name": "Peck Dry (US)",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "PZ",
+        "name": "Peck Dry (Reino Unido)",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "Q3",
+        "name": "Comida",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "QA",
+        "name": "Página – facsímil",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "QAN",
+        "name": "Cuarto (de un año)",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "QB",
+        "name": "Página – copia impresa",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "QD",
+        "name": "Cuarto de docena",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "QH",
+        "name": "Un cuarto de hora",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "QK",
+        "name": "Cuarto de kilogramo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "QR",
+        "name": "Mano de papel",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "QT",
+        "name": "Cuarto de galón (US)",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "QTD",
+        "name": "Cuarto seco (EE. UU.)",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "QTI",
+        "name": "Cuarto de galón (Reino Unido)",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "QTL",
+        "name": "Cuarto líquido (US)",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "QTR",
+        "name": "Cuarto (UK)",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "R1",
+        "name": "Pica",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "R4",
+        "name": "Caloría",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "R9",
+        "name": "Mil metros cúbicos",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "RA",
+        "name": "Estante",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "RD",
+        "name": "Barra",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "RG",
+        "name": "Anillo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "RH",
+        "name": "Hora de funcionamiento o de funcionamiento",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "RK",
+        "name": "Medida métrica rollo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "RL",
+        "name": "Carrete",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "RM",
+        "name": "Resma",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "RN",
+        "name": "Medida métrica de resma",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "RO",
+        "name": "Rodar",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "RP",
+        "name": "Libra por resma",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "RPM",
+        "name": "Revoluciones por minuto",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "RPS",
+        "name": "Revoluciones por segundo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "RS",
+        "name": "Reiniciar",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "RT",
+        "name": "Ingreso tonelada milla",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "RU",
+        "name": "Correr",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "S3",
+        "name": "Pie cuadrado por segundo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "S4",
+        "name": "Metro cuadrado por segundo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "S5",
+        "name": "Sesenta cuartos de pulgada",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "S6",
+        "name": "Sesión",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "S7",
+        "name": "Unidad de almacenamiento",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "S8",
+        "name": "Unidad de publicidad estándar",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "SA",
+        "name": "Saco",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "SAN",
+        "name": "Medio año (6 meses)",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "SCR",
+        "name": "Escrúpulo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "SD",
+        "name": "Libra solida",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "SE",
+        "name": "Sección",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "SEC",
+        "name": "Segundo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "SER",
+        "name": "Haz",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "SET",
+        "name": "Conjunto",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "SG",
+        "name": "Segmento",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "SHT",
+        "name": "Tonelada de envío",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "SIE",
+        "name": "Siemens",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "SK",
+        "name": "Camión cisterna dividido",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "SL",
+        "name": "Hoja de deslizamiento",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "SMI",
+        "name": "Milla (milla estatutaria)",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "SN",
+        "name": "Varilla cuadrada",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "SO",
+        "name": "Carrete",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "SON",
+        "name": "Son",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "SP",
+        "name": "Paquete de estante",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "SQ",
+        "name": "Cuadrado",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "SR",
+        "name": "Tira",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "SS",
+        "name": "Hoja métrica medida",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "SST",
+        "name": "Corto estándar (7200 partidos)",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "ST",
+        "name": "Hoja",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "STN",
+        "name": "Tonelada (US) o tonelada corta (UK / US)",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "SV",
+        "name": "Patinar",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "SX",
+        "name": "Envío",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "T0",
+        "name": "Línea de telecomunicaciones en servicio.",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "T1",
+        "name": "Mil libras brutas",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "T3",
+        "name": "Mil piezas",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "T4",
+        "name": "Bolsa de mil",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "T5",
+        "name": "Caja de mil",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "T6",
+        "name": "Mil galones (US)",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "T7",
+        "name": "Mil impresiones",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "T8",
+        "name": "Mil pulgadas lineales",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "TA",
+        "name": "Décimo pie cúbico",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "TAH",
+        "name": "Kiloampere hora (mil amperios hora)",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "TC",
+        "name": "Camion",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "TD",
+        "name": "Termia",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "TE",
+        "name": "Totalizador",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "TF",
+        "name": "Diez metros cuadrados",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "TI",
+        "name": "Mil pulgadas cuadradas",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "TJ",
+        "name": "Mil centímetros cuadrados",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "TK",
+        "name": "Tanque, rectangular",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "TL",
+        "name": "Mil pies (lineales)",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "TN",
+        "name": "Estaño",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "TNE",
+        "name": "Tonelada (tonelada métrica)",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "TNP",
+        "name": "Número de partes",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "TP",
+        "name": "Paquete de diez",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "TPR",
+        "name": "Diez pares",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "TQ",
+        "name": "Mil pies",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "TQD",
+        "name": "Mil metros cúbicos por día",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "TR",
+        "name": "Diez pies cuadrados",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "TRL",
+        "name": "Trillón (EUR)",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "TS",
+        "name": "Mil pies cuadrados",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "TSD",
+        "name": "Tonelada de sustancia 90% seca",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "TSH",
+        "name": "Tonelada de vapor por hora",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "TT",
+        "name": "Mil metros lineales",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "TU",
+        "name": "Tubo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "TV",
+        "name": "Mil kilogramos",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "TW",
+        "name": "Mil hojas",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "TY",
+        "name": "Tanque, cilíndrico",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "U1",
+        "name": "Tratamiento",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "U2",
+        "name": "Tableta",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "UA",
+        "name": "Torr",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "UB",
+        "name": "Línea de telecomunicaciones en servicio promedio.",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "UC",
+        "name": "Puerto de telecomunicaciones",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "UD",
+        "name": "Décimo minuto",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "UE",
+        "name": "Décima hora",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "UF",
+        "name": "Uso por línea de telecomunicación promedio",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "UH",
+        "name": "Diez mil yardas",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "UM",
+        "name": "Millones de unidades",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "VA",
+        "name": "Voltio amperio por kilogramo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "VI",
+        "name": "Frasco",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "VLT",
+        "name": "Voltio",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "VQ",
+        "name": "Abultar",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "VS",
+        "name": "Visitar",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "W2",
+        "name": "Kilo mojado",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "W4",
+        "name": "Dos semanas",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "WA",
+        "name": "Vatio por kilogramo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "WB",
+        "name": "Libra mojada",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "WCD",
+        "name": "Cable",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "WE",
+        "name": "Tonelada mojada",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "WEB",
+        "name": "Weber",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "WEE",
+        "name": "Semana",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "WG",
+        "name": "Galon de vino",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "WH",
+        "name": "Rueda",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "WHR",
+        "name": "Vatios hora",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "WI",
+        "name": "Peso por pulgada cuadrada",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "WM",
+        "name": "Mes de trabajo",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "WR",
+        "name": "Envolver",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "WSD",
+        "name": "Estándar",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "WTT",
+        "name": "Vatio",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "WW",
+        "name": "Mililitro de agua",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "X1",
+        "name": "Cadena",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "YDK",
+        "name": "Yarda cuadrada",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "YDQ",
+        "name": "Yarda cúbica",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "YL",
+        "name": "Cien yardas lineales",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "YRD",
+        "name": "Yarda",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "YT",
+        "name": "Diez yardas",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "Z1",
+        "name": "Van de elevación",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "Z2",
+        "name": "Pecho",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "Z3",
+        "name": "Barril",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "Z4",
+        "name": "Pipa",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "Z5",
+        "name": "Arrastrar",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "Z6",
+        "name": "Punto de conferencia",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "Z8",
+        "name": "Línea de noticias de ágata",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "ZP",
+        "name": "Página",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    },
+    {
+        "code": "ZZ",
+        "name": "Mutuamente definido",
+        "description": "Código UN/ECE Rec. 20 (Anexo Técnico 1.9 tabla 13.3.6)"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "code": "1",
+        "name": "Contado",
+        "description": "Pago de contado"
+    },
+    {
+        "code": "2",
+        "name": "Crédito",
+        "description": "Pago a crédito"
+    }
+]

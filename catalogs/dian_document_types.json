@@ -1,0 +1,42 @@
+[
+    {
+        "code": "01",
+        "name": "Factura electrónica de Venta",
+        "description": "Factura electrónica de venta nacional"
+    },
+    {
+        "code": "05",
+        "name": "Documento Soporte",
+        "description": "Documento soporte en adquisiciones efectuadas a no obligados a facturar"
+    },
+    {
+        "code": "20",
+        "name": "Documento Equivalente Electrónico",
+        "description": "Tiquete de máquina registradora POS emitido como documento equivalente electrónico."
+    },
+    {
+        "code": "91",
+        "name": "Nota Crédito",
+        "description": "Nota crédito que referencia una factura electrónica"
+    },
+    {
+        "code": "92",
+        "name": "Nota Débito",
+        "description": "Nota débito que referencia una factura electrónica"
+    },
+    {
+        "code": "93",
+        "name": "Nota de Ajuste al Documento Equivalente Electrónico (Débito)",
+        "description": "Ajuste débito al Documento Equivalente Electrónico (código 20)."
+    },
+    {
+        "code": "94",
+        "name": "Nota de Ajuste al Documento Equivalente Electrónico (Crédito)",
+        "description": "Ajuste crédito al Documento Equivalente Electrónico (código 20)."
+    },
+    {
+        "code": "95",
+        "name": "Nota de Ajuste",
+        "description": "Nota de ajuste al documento soporte"
+    }
+]

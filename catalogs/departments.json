@@ -1,0 +1,167 @@
+[
+    {
+        "code": "05",
+        "name": "Antioquia",
+        "description": "Departamento de Antioquia"
+    },
+    {
+        "code": "08",
+        "name": "Atlántico",
+        "description": "Departamento del Atlántico"
+    },
+    {
+        "code": "11",
+        "name": "Bogotá D.C.",
+        "description": "Distrito Capital de Bogotá"
+    },
+    {
+        "code": "13",
+        "name": "Bolívar",
+        "description": "Departamento de Bolívar"
+    },
+    {
+        "code": "15",
+        "name": "Boyacá",
+        "description": "Departamento de Boyacá"
+    },
+    {
+        "code": "17",
+        "name": "Caldas",
+        "description": "Departamento de Caldas"
+    },
+    {
+        "code": "18",
+        "name": "Caquetá",
+        "description": "Departamento del Caquetá"
+    },
+    {
+        "code": "19",
+        "name": "Cauca",
+        "description": "Departamento del Cauca"
+    },
+    {
+        "code": "20",
+        "name": "Cesar",
+        "description": "Departamento del Cesar"
+    },
+    {
+        "code": "23",
+        "name": "Córdoba",
+        "description": "Departamento de Córdoba"
+    },
+    {
+        "code": "25",
+        "name": "Cundinamarca",
+        "description": "Departamento de Cundinamarca"
+    },
+    {
+        "code": "27",
+        "name": "Chocó",
+        "description": "Departamento del Chocó"
+    },
+    {
+        "code": "41",
+        "name": "Huila",
+        "description": "Departamento del Huila"
+    },
+    {
+        "code": "44",
+        "name": "La Guajira",
+        "description": "Departamento de La Guajira"
+    },
+    {
+        "code": "47",
+        "name": "Magdalena",
+        "description": "Departamento del Magdalena"
+    },
+    {
+        "code": "50",
+        "name": "Meta",
+        "description": "Departamento del Meta"
+    },
+    {
+        "code": "52",
+        "name": "Nariño",
+        "description": "Departamento de Nariño"
+    },
+    {
+        "code": "54",
+        "name": "Norte de Santander",
+        "description": "Departamento de Norte de Santander"
+    },
+    {
+        "code": "63",
+        "name": "Quindío",
+        "description": "Departamento del Quindío"
+    },
+    {
+        "code": "66",
+        "name": "Risaralda",
+        "description": "Departamento de Risaralda"
+    },
+    {
+        "code": "68",
+        "name": "Santander",
+        "description": "Departamento de Santander"
+    },
+    {
+        "code": "70",
+        "name": "Sucre",
+        "description": "Departamento de Sucre"
+    },
+    {
+        "code": "73",
+        "name": "Tolima",
+        "description": "Departamento del Tolima"
+    },
+    {
+        "code": "76",
+        "name": "Valle del Cauca",
+        "description": "Departamento del Valle del Cauca"
+    },
+    {
+        "code": "81",
+        "name": "Arauca",
+        "description": "Departamento de Arauca"
+    },
+    {
+        "code": "85",
+        "name": "Casanare",
+        "description": "Departamento de Casanare"
+    },
+    {
+        "code": "86",
+        "name": "Putumayo",
+        "description": "Departamento del Putumayo"
+    },
+    {
+        "code": "88",
+        "name": "San Andrés y Providencia",
+        "description": "Departamento Archipiélago de San Andrés y Providencia"
+    },
+    {
+        "code": "91",
+        "name": "Amazonas",
+        "description": "Departamento del Amazonas"
+    },
+    {
+        "code": "94",
+        "name": "Guainía",
+        "description": "Departamento del Guainía"
+    },
+    {
+        "code": "95",
+        "name": "Guaviare",
+        "description": "Departamento del Guaviare"
+    },
+    {
+        "code": "97",
+        "name": "Vaupés",
+        "description": "Departamento del Vaupés"
+    },
+    {
+        "code": "99",
+        "name": "Vichada",
+        "description": "Departamento del Vichada"
+    }
+]

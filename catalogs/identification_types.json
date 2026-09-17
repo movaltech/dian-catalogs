@@ -1,0 +1,62 @@
+[
+    {
+        "code": "11",
+        "name": "Registro Civil",
+        "description": "Documento de identidad para menores sin Tarjeta de Identidad"
+    },
+    {
+        "code": "12",
+        "name": "Tarjeta de Identidad",
+        "description": "Documento de identidad para menores de edad"
+    },
+    {
+        "code": "13",
+        "name": "Cédula de Ciudadanía",
+        "description": "Documento de identidad para personas naturales colombianas"
+    },
+    {
+        "code": "21",
+        "name": "Tarjeta de Extranjería",
+        "description": "Documento de identidad para extranjeros residentes (temporal)"
+    },
+    {
+        "code": "22",
+        "name": "Cédula de Extranjería",
+        "description": "Documento de identidad para extranjeros residentes"
+    },
+    {
+        "code": "31",
+        "name": "NIT",
+        "description": "Número de Identificación Tributaria - documento de identificación tributaria para empresas"
+    },
+    {
+        "code": "41",
+        "name": "Pasaporte",
+        "description": "Documento de identidad internacional"
+    },
+    {
+        "code": "42",
+        "name": "Documento de Identificación Extranjero",
+        "description": "Para extranjeros sin los documentos anteriores"
+    },
+    {
+        "code": "47",
+        "name": "NIT de otro país",
+        "description": "NIT emitido por otro país"
+    },
+    {
+        "code": "48",
+        "name": "PPT",
+        "description": "Permiso por Protección Temporal — documento de identificación para personas en movilidad humana desde Venezuela. Introducido por la Resolución DIAN 000165 de 2023, vigente con el Anexo Técnico 1.9 desde 2024-05-01."
+    },
+    {
+        "code": "50",
+        "name": "NIT de la DIAN",
+        "description": "Casos especiales asignados directamente por la DIAN"
+    },
+    {
+        "code": "91",
+        "name": "NUIP",
+        "description": "Número Único de Identificación Personal"
+    }
+]

@@ -1,0 +1,92 @@
+[
+    {
+        "code": "01",
+        "name": "IVA",
+        "description": "Impuesto al Valor Agregado"
+    },
+    {
+        "code": "02",
+        "name": "IC",
+        "description": "Impuesto al Consumo"
+    },
+    {
+        "code": "03",
+        "name": "ICA",
+        "description": "Impuesto de Industria y Comercio"
+    },
+    {
+        "code": "04",
+        "name": "INC",
+        "description": "Impuesto Nacional al Consumo"
+    },
+    {
+        "code": "05",
+        "name": "ReteIVA",
+        "description": "Retención en la fuente por IVA"
+    },
+    {
+        "code": "06",
+        "name": "ReteFuente",
+        "description": "Retención en la fuente por renta"
+    },
+    {
+        "code": "07",
+        "name": "ReteICA",
+        "description": "Retención en la fuente por ICA"
+    },
+    {
+        "code": "08",
+        "name": "ReteCREE",
+        "description": "Retención en la fuente por CREE (impuesto ya derogado, código vigente por compatibilidad histórica)"
+    },
+    {
+        "code": "20",
+        "name": "FtoHorticultura",
+        "description": "Fondo de Fomento Hortifrutícola"
+    },
+    {
+        "code": "21",
+        "name": "Timbre",
+        "description": "Impuesto de Timbre Nacional"
+    },
+    {
+        "code": "22",
+        "name": "Bolsas",
+        "description": "Impuesto Nacional al Consumo de Bolsas Plásticas"
+    },
+    {
+        "code": "23",
+        "name": "INCarbono",
+        "description": "Impuesto Nacional al Carbono"
+    },
+    {
+        "code": "24",
+        "name": "INCombustibles",
+        "description": "Impuesto Nacional a los Combustibles"
+    },
+    {
+        "code": "25",
+        "name": "Sobretasa Combustibles",
+        "description": "Sobretasa al ACPM y la Gasolina Motor"
+    },
+    {
+        "code": "26",
+        "name": "Sordicom",
+        "description": "Confirmado válido en la lista oficial de tributos (Caja de Herramientas DIAN, TipoImpuesto-2.1.gc) — sin descripción larga verificada en este repositorio"
+    },
+    {
+        "code": "34",
+        "name": "IBUA",
+        "description": "Impuesto a las Bebidas Ultraprocesadas Azucaradas (Ley 2277 de 2022). Código encontrado en fuente secundaria (revisión 2026-09-16), NO verificado aún contra el texto del Anexo Técnico oficial — confirmar antes de depender en producción."
+    },
+    {
+        "code": "35",
+        "name": "ICUI",
+        "description": "Impuesto a los Productos Comestibles Ultraprocesados Industrialmente, altos en azúcares añadidos/sodio/grasas saturadas (Ley 2277 de 2022). Código encontrado en fuente secundaria (revisión 2026-09-16), NO verificado aún contra el texto del Anexo Técnico oficial — confirmar antes de depender en producción."
+    },
+    {
+        "code": "ZZ",
+        "name": "No aplica",
+        "description": "No aplica impuesto"
+    }
+]

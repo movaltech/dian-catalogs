@@ -1,0 +1,37 @@
+[
+    {
+        "code": "O-13",
+        "name": "Gran contribuyente",
+        "description": "Responsabilidad de Gran Contribuyente"
+    },
+    {
+        "code": "O-15",
+        "name": "Autorretenedor",
+        "description": "Responsabilidad de Autorretenedor"
+    },
+    {
+        "code": "O-23",
+        "name": "Agente de retención IVA",
+        "description": "Responsabilidad de Agente de Retención de IVA"
+    },
+    {
+        "code": "O-47",
+        "name": "Régimen simple de tributación",
+        "description": "Responsabilidad de Régimen Simple de Tributación"
+    },
+    {
+        "code": "O-49",
+        "name": "No obligado a facturar",
+        "description": "Código DIAN para terceros no obligados a facturar — usado en AccountingSupplierParty del Documento Soporte (tipo 05). Aparece con TaxRegimeCode=49 en cbc:TaxLevelCode listName='49' del XML DIAN."
+    },
+    {
+        "code": "R-99-PJ",
+        "name": "No aplica (persona jurídica)",
+        "description": "Catch-all confirmado en el Schematron real de la DIAN (2019) para personas jurídicas sin responsabilidades especiales. ADVERTENCIA: no usar como responsabilidad del RECEPTOR en factura — rechazado con notificación FAK26 (\"Responsabilidad informada para receptor no válido según lista\") en prueba real contra habilitación, 2026-09-02. Fuente externa confirma que desde el 1 de agosto de 2021 la lista de responsabilidades válidas para el receptor quedó restringida a solo 5 códigos: O-13, O-15, O-23, O-47, R-99-PN — R-99-PJ no es uno de ellos. Usar R-99-PN también para receptores persona jurídica sin responsabilidad especial."
+    },
+    {
+        "code": "R-99-PN",
+        "name": "No aplica (persona natural)",
+        "description": "Catch-all usado como valor por defecto en este sistema (issuers.Service/documents.Service) — no aparece en el Schematron de 2019 de la Caja de Herramientas (desactualizado en este punto), pero CONFIRMADO real: factura SETP990300000 autorizada por la DIAN (StatusCode 00) usando este código, 2026-06-24"
+    }
+]

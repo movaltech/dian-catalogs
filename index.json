@@ -1,0 +1,90 @@
+{
+    "version": "1.0.0",
+    "updated": "2026-09-16",
+    "catalogs": [
+        {
+            "id": "countries",
+            "file": "catalogs/countries.json",
+            "description": "Países (código DIAN)",
+            "rows": 51
+        },
+        {
+            "id": "currencies",
+            "file": "catalogs/currencies.json",
+            "description": "Monedas (ISO 4217)",
+            "rows": 3
+        },
+        {
+            "id": "departments",
+            "file": "catalogs/departments.json",
+            "description": "Departamentos de Colombia (código DANE)",
+            "rows": 33
+        },
+        {
+            "id": "municipalities",
+            "file": "catalogs/municipalities.json",
+            "description": "Municipios de Colombia (código DANE), referencia department_code",
+            "rows": 1122
+        },
+        {
+            "id": "dian_document_types",
+            "file": "catalogs/dian_document_types.json",
+            "description": "Tipos de documento electrónico DIAN (factura, nota crédito, nota débito, documento equivalente, etc.)",
+            "rows": 8
+        },
+        {
+            "id": "dian_tax_types",
+            "file": "catalogs/dian_tax_types.json",
+            "description": "Tipos de impuesto DIAN (IVA, INC, ICA, IBUA, ICUI, etc.)",
+            "rows": 18
+        },
+        {
+            "id": "identification_types",
+            "file": "catalogs/identification_types.json",
+            "description": "Tipos de identificación (NIT, cédula, pasaporte, PPT, etc.)",
+            "rows": 12
+        },
+        {
+            "id": "item_standards",
+            "file": "catalogs/item_standards.json",
+            "description": "Estándares de codificación de artículos/productos",
+            "rows": 4
+        },
+        {
+            "id": "liability_codes",
+            "file": "catalogs/liability_codes.json",
+            "description": "Responsabilidades fiscales",
+            "rows": 7
+        },
+        {
+            "id": "payment_methods",
+            "file": "catalogs/payment_methods.json",
+            "description": "Medios de pago",
+            "rows": 75
+        },
+        {
+            "id": "payment_terms",
+            "file": "catalogs/payment_terms.json",
+            "description": "Formas de pago (contado, crédito)",
+            "rows": 2
+        },
+        {
+            "id": "tax_regimes",
+            "file": "catalogs/tax_regimes.json",
+            "description": "Regímenes tributarios",
+            "rows": 6
+        },
+        {
+            "id": "unit_measures",
+            "file": "catalogs/unit_measures.json",
+            "description": "Unidades de medida (UN/ECE Rec. 20, Anexo Técnico 1.9 tabla 13.3.6)",
+            "rows": 1081
+        },
+        {
+            "id": "ciiu_codes",
+            "file": "catalogs/ciiu_codes.json",
+            "description": "Códigos CIIU (actividad económica)",
+            "rows": 508
+        }
+    ]
+}
