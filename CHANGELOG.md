@@ -9,6 +9,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- Five catalogs of Colombian tax/labor values set by law rather than by DIAN's electronic
+  invoicing Anexo Técnico, ported from an ERP's own accounting/payroll seed data so every
+  consumer shares one source instead of each copying it by hand:
+  - `withholding_concepts`: 19 retención en la fuente / ReteIVA / ReteICA concepts (rate,
+    minimum base in UVT, PUC accounts). `code` is compound,
+    `"{concepto}-{JURIDICA|NATURAL|BOTH}"` (e.g. `"01-JURIDICA"`, `"04-BOTH"`), since some
+    concepts have a different rate for a declarante (JURIDICA) than a no-declarante
+    (NATURAL) and others share one rate for both.
+  - `uvt`: Unidad de Valor Tributario by year, 2020-2025.
+  - `income_tax_rates`: general corporate income tax rate by year, 2019-2026.
+  - `arl_rates`: occupational-risk (ARL) contribution rate by risk class (I-V) and year,
+    2024-2026.
+  - `smmlv`: Salario Mínimo Mensual Legal Vigente by year, 2019-2026.
+
+  `Entry` gains `Year`, `RateBp`, `MinBaseUVT`, `AccountPayable`, `AccountReceivable`,
+  `ApplicableTo`, `RiskClass`, `ValueCents` and `Type` -- all `omitempty`, populated only by
+  these five catalogs, the same "not every catalog fills every field" convention
+  `DepartmentCode`/`Symbol`/`AgencyID` already established.
 - Go binding (`package catalogs`, `go get github.com/movaltech/dian-catalogs`): embeds
   `index.json` and `catalogs/*.json` via `go:embed` and exposes a single generic loader
   (`Get`, `IsValid`, `IsValidMunicipality`, `All`, `CatalogIDs`) driven entirely by

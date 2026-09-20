@@ -1,0 +1,211 @@
+[
+    {
+        "code": "01-JURIDICA",
+        "name": "Compras generales (declarante)",
+        "description": "Retención en la fuente por compras generales, tarifa para declarantes de renta (persona jurídica). Base mínima 27 UVT.",
+        "type": "RETEFUENTE",
+        "rate_bp": 250,
+        "min_base_uvt": 27,
+        "account_payable": "236540",
+        "account_receivable": "135505",
+        "applicable_to": "JURIDICA"
+    },
+    {
+        "code": "01-NATURAL",
+        "name": "Compras generales (no declarante)",
+        "description": "Retención en la fuente por compras generales, tarifa para no declarantes de renta (persona natural). Base mínima 27 UVT.",
+        "type": "RETEFUENTE",
+        "rate_bp": 350,
+        "min_base_uvt": 27,
+        "account_payable": "236540",
+        "account_receivable": "135505",
+        "applicable_to": "NATURAL"
+    },
+    {
+        "code": "02-JURIDICA",
+        "name": "Servicios generales (declarante)",
+        "description": "Retención en la fuente por servicios generales, tarifa para declarantes de renta (persona jurídica). Base mínima 4 UVT.",
+        "type": "RETEFUENTE",
+        "rate_bp": 400,
+        "min_base_uvt": 4,
+        "account_payable": "236525",
+        "account_receivable": "135505",
+        "applicable_to": "JURIDICA"
+    },
+    {
+        "code": "02-NATURAL",
+        "name": "Servicios generales (no declarante)",
+        "description": "Retención en la fuente por servicios generales, tarifa para no declarantes de renta (persona natural). Base mínima 4 UVT.",
+        "type": "RETEFUENTE",
+        "rate_bp": 600,
+        "min_base_uvt": 4,
+        "account_payable": "236525",
+        "account_receivable": "135505",
+        "applicable_to": "NATURAL"
+    },
+    {
+        "code": "03-JURIDICA",
+        "name": "Honorarios y comisiones (persona jurídica)",
+        "description": "Retención en la fuente por honorarios y comisiones pagados a una persona jurídica. Sin base mínima.",
+        "type": "RETEFUENTE",
+        "rate_bp": 1100,
+        "min_base_uvt": 0,
+        "account_payable": "236515",
+        "account_receivable": "135505",
+        "applicable_to": "JURIDICA"
+    },
+    {
+        "code": "03-NATURAL",
+        "name": "Honorarios y comisiones (persona natural)",
+        "description": "Retención en la fuente por honorarios y comisiones pagados a una persona natural. Sin base mínima.",
+        "type": "RETEFUENTE",
+        "rate_bp": 1000,
+        "min_base_uvt": 0,
+        "account_payable": "236515",
+        "account_receivable": "135505",
+        "applicable_to": "NATURAL"
+    },
+    {
+        "code": "04-BOTH",
+        "name": "Arrendamiento de bienes muebles",
+        "description": "Retención en la fuente por arrendamiento de bienes muebles. Misma tarifa para persona natural y jurídica, sin base mínima.",
+        "type": "RETEFUENTE",
+        "rate_bp": 400,
+        "min_base_uvt": 0,
+        "account_payable": "236530",
+        "account_receivable": "135505",
+        "applicable_to": "BOTH"
+    },
+    {
+        "code": "05-JURIDICA",
+        "name": "Arrendamiento de bienes inmuebles (declarante)",
+        "description": "Retención en la fuente por arrendamiento de bienes inmuebles, tarifa para declarantes de renta (persona jurídica). Base mínima 27 UVT.",
+        "type": "RETEFUENTE",
+        "rate_bp": 350,
+        "min_base_uvt": 27,
+        "account_payable": "236530",
+        "account_receivable": "135505",
+        "applicable_to": "JURIDICA"
+    },
+    {
+        "code": "05-NATURAL",
+        "name": "Arrendamiento de bienes inmuebles (no declarante)",
+        "description": "Retención en la fuente por arrendamiento de bienes inmuebles, tarifa para no declarantes de renta (persona natural). Base mínima 27 UVT.",
+        "type": "RETEFUENTE",
+        "rate_bp": 350,
+        "min_base_uvt": 27,
+        "account_payable": "236530",
+        "account_receivable": "135505",
+        "applicable_to": "NATURAL"
+    },
+    {
+        "code": "07-BOTH",
+        "name": "Rendimientos financieros",
+        "description": "Retención en la fuente por rendimientos financieros. Misma tarifa para persona natural y jurídica, sin base mínima.",
+        "type": "RETEFUENTE",
+        "rate_bp": 700,
+        "min_base_uvt": 0,
+        "account_payable": "236535",
+        "account_receivable": "135505",
+        "applicable_to": "BOTH"
+    },
+    {
+        "code": "09-JURIDICA",
+        "name": "Transporte de carga (declarante)",
+        "description": "Retención en la fuente por transporte de carga, tarifa para declarantes de renta (persona jurídica). Base mínima 27 UVT.",
+        "type": "RETEFUENTE",
+        "rate_bp": 100,
+        "min_base_uvt": 27,
+        "account_payable": "236525",
+        "account_receivable": "135505",
+        "applicable_to": "JURIDICA"
+    },
+    {
+        "code": "09-NATURAL",
+        "name": "Transporte de carga (no declarante)",
+        "description": "Retención en la fuente por transporte de carga, tarifa para no declarantes de renta (persona natural). Base mínima 27 UVT.",
+        "type": "RETEFUENTE",
+        "rate_bp": 150,
+        "min_base_uvt": 27,
+        "account_payable": "236525",
+        "account_receivable": "135505",
+        "applicable_to": "NATURAL"
+    },
+    {
+        "code": "10-BOTH",
+        "name": "Transporte de pasajeros",
+        "description": "Retención en la fuente por transporte de pasajeros. Misma tarifa para persona natural y jurídica. Base mínima 27 UVT.",
+        "type": "RETEFUENTE",
+        "rate_bp": 350,
+        "min_base_uvt": 27,
+        "account_payable": "236525",
+        "account_receivable": "135505",
+        "applicable_to": "BOTH"
+    },
+    {
+        "code": "12-BOTH",
+        "name": "Contratos de construcción",
+        "description": "Retención en la fuente por contratos de construcción y urbanización. Misma tarifa para persona natural y jurídica. Base mínima 27 UVT.",
+        "type": "RETEFUENTE",
+        "rate_bp": 200,
+        "min_base_uvt": 27,
+        "account_payable": "236540",
+        "account_receivable": "135505",
+        "applicable_to": "BOTH"
+    },
+    {
+        "code": "16-BOTH",
+        "name": "Loterías, rifas, apuestas y similares",
+        "description": "Retención en la fuente por loterías, rifas, apuestas y similares. Misma tarifa para persona natural y jurídica. Base mínima 48 UVT.",
+        "type": "RETEFUENTE",
+        "rate_bp": 2000,
+        "min_base_uvt": 48,
+        "account_payable": "236545",
+        "account_receivable": "135505",
+        "applicable_to": "BOTH"
+    },
+    {
+        "code": "IVA-BOTH",
+        "name": "Retención de IVA",
+        "description": "Retención de IVA (15% del IVA facturado, ReteIVA), régimen general. Misma tarifa para persona natural y jurídica, sin base mínima propia (aplica sobre el IVA ya liquidado).",
+        "type": "RETEIVA",
+        "rate_bp": 1500,
+        "min_base_uvt": 0,
+        "account_payable": "2367",
+        "account_receivable": "135517",
+        "applicable_to": "BOTH"
+    },
+    {
+        "code": "ICA-C-BOTH",
+        "name": "ICA — Actividades comerciales",
+        "description": "Retención de industria y comercio (ReteICA) sobre actividades comerciales. Tarifa de referencia (Bogotá, 10 por mil) -- la tarifa real depende del municipio y la actividad económica, ver ica_tariffs por empresa. Misma tarifa para persona natural y jurídica, sin base mínima propia.",
+        "type": "RETEICA",
+        "rate_bp": 1000,
+        "min_base_uvt": 0,
+        "account_payable": "2368",
+        "account_receivable": "135518",
+        "applicable_to": "BOTH"
+    },
+    {
+        "code": "ICA-S-BOTH",
+        "name": "ICA — Servicios",
+        "description": "Retención de industria y comercio (ReteICA) sobre servicios. Tarifa de referencia (Bogotá, 10 por mil) -- la tarifa real depende del municipio y la actividad económica, ver ica_tariffs por empresa. Misma tarifa para persona natural y jurídica, sin base mínima propia.",
+        "type": "RETEICA",
+        "rate_bp": 1000,
+        "min_base_uvt": 0,
+        "account_payable": "2368",
+        "account_receivable": "135518",
+        "applicable_to": "BOTH"
+    },
+    {
+        "code": "ICA-I-BOTH",
+        "name": "ICA — Actividades industriales",
+        "description": "Retención de industria y comercio (ReteICA) sobre actividades industriales. Tarifa de referencia (Bogotá, 8 por mil) -- la tarifa real depende del municipio y la actividad económica, ver ica_tariffs por empresa. Misma tarifa para persona natural y jurídica, sin base mínima propia.",
+        "type": "RETEICA",
+        "rate_bp": 800,
+        "min_base_uvt": 0,
+        "account_payable": "2368",
+        "account_receivable": "135518",
+        "applicable_to": "BOTH"
+    }
+]

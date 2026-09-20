@@ -1,6 +1,6 @@
 {
-    "version": "1.0.0",
-    "updated": "2026-09-16",
+    "version": "1.2.0",
+    "updated": "2026-09-20",
     "catalogs": [
         {
             "id": "countries",
@@ -85,6 +85,36 @@
             "file": "catalogs/ciiu_codes.json",
             "description": "Códigos CIIU (actividad económica)",
             "rows": 507
+        },
+        {
+            "id": "withholding_concepts",
+            "file": "catalogs/withholding_concepts.json",
+            "description": "Conceptos de retención en la fuente, ReteIVA y ReteICA (tarifa, base mínima en UVT, cuentas PUC). code compuesto {concepto}-{JURIDICA|NATURAL|BOTH}",
+            "rows": 19
+        },
+        {
+            "id": "uvt",
+            "file": "catalogs/uvt.json",
+            "description": "Unidad de Valor Tributario por año gravable, en pesos colombianos. code = año",
+            "rows": 6
+        },
+        {
+            "id": "income_tax_rates",
+            "file": "catalogs/income_tax_rates.json",
+            "description": "Tarifa general del impuesto de renta para personas jurídicas por año gravable. code = año",
+            "rows": 8
+        },
+        {
+            "id": "arl_rates",
+            "file": "catalogs/arl_rates.json",
+            "description": "Tarifas de cotización a riesgos laborales (ARL) por clase de riesgo y año. code = {año}-{clase}",
+            "rows": 15
+        },
+        {
+            "id": "smmlv",
+            "file": "catalogs/smmlv.json",
+            "description": "Salario Mínimo Mensual Legal Vigente en Colombia por año, en pesos colombianos. code = año",
+            "rows": 8
         }
     ]
 }

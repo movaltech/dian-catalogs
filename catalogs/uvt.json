@@ -1,0 +1,44 @@
+[
+    {
+        "code": "2020",
+        "name": "UVT 2020",
+        "description": "Unidad de Valor Tributario vigente para el año gravable 2020, en pesos colombianos.",
+        "year": 2020,
+        "value_cents": 3560700
+    },
+    {
+        "code": "2021",
+        "name": "UVT 2021",
+        "description": "Unidad de Valor Tributario vigente para el año gravable 2021, en pesos colombianos.",
+        "year": 2021,
+        "value_cents": 3630800
+    },
+    {
+        "code": "2022",
+        "name": "UVT 2022",
+        "description": "Unidad de Valor Tributario vigente para el año gravable 2022, en pesos colombianos.",
+        "year": 2022,
+        "value_cents": 3800400
+    },
+    {
+        "code": "2023",
+        "name": "UVT 2023",
+        "description": "Unidad de Valor Tributario vigente para el año gravable 2023, en pesos colombianos.",
+        "year": 2023,
+        "value_cents": 4241200
+    },
+    {
+        "code": "2024",
+        "name": "UVT 2024",
+        "description": "Unidad de Valor Tributario vigente para el año gravable 2024, en pesos colombianos.",
+        "year": 2024,
+        "value_cents": 4706500
+    },
+    {
+        "code": "2025",
+        "name": "UVT 2025",
+        "description": "Unidad de Valor Tributario vigente para el año gravable 2025, en pesos colombianos.",
+        "year": 2025,
+        "value_cents": 4979900
+    }
+]

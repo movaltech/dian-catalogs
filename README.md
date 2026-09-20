@@ -1,9 +1,11 @@
 # dian-catalogs
 
-Reference catalogs used by Colombia's DIAN (Dirección de Impuestos y Aduanas
-Nacionales) electronic invoicing system — departments, municipalities, document
-types, units of measure, tax types, and more — as plain JSON files, versioned with
-git tags.
+Reference catalogs for Colombian tax/labor compliance — DIAN (Dirección de Impuestos
+y Aduanas Nacionales) electronic invoicing data (departments, municipalities,
+document types, units of measure, tax types, and more), plus other values set by
+Colombian law that change on the same yearly cadence (UVT, income tax rate,
+withholding concepts, ARL rates, SMMLV) — as plain JSON files, versioned with git
+tags.
 
 This repository is **data only**. There is no business logic, no framework
 dependency, and no opinion about how you consume it — it's meant to be a single,
@@ -27,7 +29,12 @@ lives at `catalogs/<name>.json` as an array of objects, most commonly shaped as
 ```
 
 `municipalities.json` additionally carries `department_code`, relating each entry
-back to `departments.json`.
+back to `departments.json`. A few catalogs key by something other than a plain DIAN
+code: `uvt`, `income_tax_rates` and `smmlv` key by year (e.g. `"2025"`); `arl_rates`
+keys by `"{year}-{risk_class}"` (e.g. `"2025-III"`); `withholding_concepts` keys by
+`"{concepto}-{JURIDICA|NATURAL|BOTH}"` (e.g. `"01-JURIDICA"`, `"04-BOTH"`), since some
+withholding concepts have a different rate for a declarante than a no-declarante and
+others share one rate for both.
 
 Catalog values (codes, names, descriptions) are kept in the original Spanish used by
 DIAN's own technical documentation, since that's the authoritative source — this

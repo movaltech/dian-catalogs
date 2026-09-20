@@ -1,0 +1,58 @@
+[
+    {
+        "code": "2019",
+        "name": "Tarifa de renta 2019",
+        "description": "Tarifa general del impuesto de renta para personas jurídicas, año gravable 2019.",
+        "year": 2019,
+        "rate_bp": 3300
+    },
+    {
+        "code": "2020",
+        "name": "Tarifa de renta 2020",
+        "description": "Tarifa general del impuesto de renta para personas jurídicas, año gravable 2020.",
+        "year": 2020,
+        "rate_bp": 3200
+    },
+    {
+        "code": "2021",
+        "name": "Tarifa de renta 2021",
+        "description": "Tarifa general del impuesto de renta para personas jurídicas, año gravable 2021.",
+        "year": 2021,
+        "rate_bp": 3100
+    },
+    {
+        "code": "2022",
+        "name": "Tarifa de renta 2022",
+        "description": "Tarifa general del impuesto de renta para personas jurídicas, año gravable 2022.",
+        "year": 2022,
+        "rate_bp": 3500
+    },
+    {
+        "code": "2023",
+        "name": "Tarifa de renta 2023",
+        "description": "Tarifa general del impuesto de renta para personas jurídicas, año gravable 2023.",
+        "year": 2023,
+        "rate_bp": 3500
+    },
+    {
+        "code": "2024",
+        "name": "Tarifa de renta 2024",
+        "description": "Tarifa general del impuesto de renta para personas jurídicas, año gravable 2024.",
+        "year": 2024,
+        "rate_bp": 3500
+    },
+    {
+        "code": "2025",
+        "name": "Tarifa de renta 2025",
+        "description": "Tarifa general del impuesto de renta para personas jurídicas, año gravable 2025.",
+        "year": 2025,
+        "rate_bp": 3500
+    },
+    {
+        "code": "2026",
+        "name": "Tarifa de renta 2026",
+        "description": "Tarifa general del impuesto de renta para personas jurídicas, año gravable 2026.",
+        "year": 2026,
+        "rate_bp": 3500
+    }
+]

@@ -34,8 +34,8 @@ func TestIndexMatchesEmbeddedFiles(t *testing.T) {
 
 func TestCatalogIDsMatchesIndex(t *testing.T) {
 	ids := CatalogIDs()
-	if len(ids) != 14 {
-		t.Fatalf("expected 14 catalogs, got %d: %v", len(ids), ids)
+	if len(ids) != 19 {
+		t.Fatalf("expected 19 catalogs, got %d: %v", len(ids), ids)
 	}
 }
 
@@ -73,6 +73,64 @@ func TestGetItemStandardHasAgencyID(t *testing.T) {
 	}
 	if entry.AgencyID != "10" {
 		t.Fatalf("expected UNSPSC agency_id %q, got %q", "10", entry.AgencyID)
+	}
+}
+
+// TestGetWithholdingConceptHasCompositeCodeAndAccounts guards
+// WithholdingConcepts' own shape: a compound code
+// ("{concepto}-{JURIDICA|NATURAL|BOTH}") and the accounting-specific
+// fields (RateBp, MinBaseUVT, AccountPayable, AccountReceivable,
+// ApplicableTo, Type) no other catalog populates.
+func TestGetWithholdingConceptHasCompositeCodeAndAccounts(t *testing.T) {
+	entry, ok := Get(WithholdingConcepts, "03-NATURAL")
+	if !ok {
+		t.Fatal("expected withholding concept 03-NATURAL to exist")
+	}
+	if entry.Type != "RETEFUENTE" || entry.RateBp != 1000 || entry.ApplicableTo != "NATURAL" {
+		t.Fatalf("entry = %+v, want Type=RETEFUENTE RateBp=1000 ApplicableTo=NATURAL", entry)
+	}
+	if entry.AccountPayable != "236515" || entry.AccountReceivable != "135505" {
+		t.Fatalf("entry = %+v, want AccountPayable=236515 AccountReceivable=135505", entry)
+	}
+}
+
+func TestGetUVTHasYearAndValue(t *testing.T) {
+	entry, ok := Get(UVT, "2025")
+	if !ok {
+		t.Fatal("expected uvt 2025 to exist")
+	}
+	if entry.Year != 2025 || entry.ValueCents != 4979900 {
+		t.Fatalf("entry = %+v, want Year=2025 ValueCents=4979900", entry)
+	}
+}
+
+func TestGetARLRateHasCompositeCodeAndRiskClass(t *testing.T) {
+	entry, ok := Get(ARLRates, "2025-III")
+	if !ok {
+		t.Fatal("expected arl_rates 2025-III to exist")
+	}
+	if entry.Year != 2025 || entry.RiskClass != "III" || entry.RateBp != 244 {
+		t.Fatalf("entry = %+v, want Year=2025 RiskClass=III RateBp=244", entry)
+	}
+}
+
+func TestGetSMMLVHasValue(t *testing.T) {
+	entry, ok := Get(SMMLV, "2026")
+	if !ok {
+		t.Fatal("expected smmlv 2026 to exist")
+	}
+	if entry.ValueCents != 150000000 {
+		t.Fatalf("entry.ValueCents = %d, want 150000000", entry.ValueCents)
+	}
+}
+
+func TestGetIncomeTaxRateHasRate(t *testing.T) {
+	entry, ok := Get(IncomeTaxRates, "2022")
+	if !ok {
+		t.Fatal("expected income_tax_rates 2022 to exist")
+	}
+	if entry.RateBp != 3500 {
+		t.Fatalf("entry.RateBp = %d, want 3500", entry.RateBp)
 	}
 }
 

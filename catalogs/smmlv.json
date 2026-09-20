@@ -1,0 +1,58 @@
+[
+    {
+        "code": "2019",
+        "name": "SMMLV 2019",
+        "description": "Salario Mínimo Mensual Legal Vigente en Colombia, año 2019, en pesos colombianos.",
+        "year": 2019,
+        "value_cents": 82811600
+    },
+    {
+        "code": "2020",
+        "name": "SMMLV 2020",
+        "description": "Salario Mínimo Mensual Legal Vigente en Colombia, año 2020, en pesos colombianos.",
+        "year": 2020,
+        "value_cents": 87780300
+    },
+    {
+        "code": "2021",
+        "name": "SMMLV 2021",
+        "description": "Salario Mínimo Mensual Legal Vigente en Colombia, año 2021, en pesos colombianos.",
+        "year": 2021,
+        "value_cents": 90852600
+    },
+    {
+        "code": "2022",
+        "name": "SMMLV 2022",
+        "description": "Salario Mínimo Mensual Legal Vigente en Colombia, año 2022, en pesos colombianos.",
+        "year": 2022,
+        "value_cents": 100000000
+    },
+    {
+        "code": "2023",
+        "name": "SMMLV 2023",
+        "description": "Salario Mínimo Mensual Legal Vigente en Colombia, año 2023, en pesos colombianos.",
+        "year": 2023,
+        "value_cents": 116000000
+    },
+    {
+        "code": "2024",
+        "name": "SMMLV 2024",
+        "description": "Salario Mínimo Mensual Legal Vigente en Colombia, año 2024, en pesos colombianos.",
+        "year": 2024,
+        "value_cents": 130000000
+    },
+    {
+        "code": "2025",
+        "name": "SMMLV 2025",
+        "description": "Salario Mínimo Mensual Legal Vigente en Colombia, año 2025, en pesos colombianos.",
+        "year": 2025,
+        "value_cents": 142350000
+    },
+    {
+        "code": "2026",
+        "name": "SMMLV 2026",
+        "description": "Salario Mínimo Mensual Legal Vigente en Colombia, año 2026, en pesos colombianos.",
+        "year": 2026,
+        "value_cents": 150000000
+    }
+]

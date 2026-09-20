@@ -1,0 +1,122 @@
+[
+    {
+        "code": "2024-I",
+        "name": "ARL clase I 2024",
+        "description": "Tarifa mínima de cotización a riesgos laborales (ARL), clase de riesgo I (riesgo mínimo), año 2024.",
+        "year": 2024,
+        "risk_class": "I",
+        "rate_bp": 52
+    },
+    {
+        "code": "2024-II",
+        "name": "ARL clase II 2024",
+        "description": "Tarifa de cotización a riesgos laborales (ARL), clase de riesgo II (riesgo bajo), año 2024.",
+        "year": 2024,
+        "risk_class": "II",
+        "rate_bp": 104
+    },
+    {
+        "code": "2024-III",
+        "name": "ARL clase III 2024",
+        "description": "Tarifa de cotización a riesgos laborales (ARL), clase de riesgo III (riesgo medio), año 2024.",
+        "year": 2024,
+        "risk_class": "III",
+        "rate_bp": 244
+    },
+    {
+        "code": "2024-IV",
+        "name": "ARL clase IV 2024",
+        "description": "Tarifa de cotización a riesgos laborales (ARL), clase de riesgo IV (riesgo alto), año 2024.",
+        "year": 2024,
+        "risk_class": "IV",
+        "rate_bp": 435
+    },
+    {
+        "code": "2024-V",
+        "name": "ARL clase V 2024",
+        "description": "Tarifa máxima de cotización a riesgos laborales (ARL), clase de riesgo V (riesgo máximo), año 2024.",
+        "year": 2024,
+        "risk_class": "V",
+        "rate_bp": 696
+    },
+    {
+        "code": "2025-I",
+        "name": "ARL clase I 2025",
+        "description": "Tarifa mínima de cotización a riesgos laborales (ARL), clase de riesgo I (riesgo mínimo), año 2025.",
+        "year": 2025,
+        "risk_class": "I",
+        "rate_bp": 52
+    },
+    {
+        "code": "2025-II",
+        "name": "ARL clase II 2025",
+        "description": "Tarifa de cotización a riesgos laborales (ARL), clase de riesgo II (riesgo bajo), año 2025.",
+        "year": 2025,
+        "risk_class": "II",
+        "rate_bp": 104
+    },
+    {
+        "code": "2025-III",
+        "name": "ARL clase III 2025",
+        "description": "Tarifa de cotización a riesgos laborales (ARL), clase de riesgo III (riesgo medio), año 2025.",
+        "year": 2025,
+        "risk_class": "III",
+        "rate_bp": 244
+    },
+    {
+        "code": "2025-IV",
+        "name": "ARL clase IV 2025",
+        "description": "Tarifa de cotización a riesgos laborales (ARL), clase de riesgo IV (riesgo alto), año 2025.",
+        "year": 2025,
+        "risk_class": "IV",
+        "rate_bp": 435
+    },
+    {
+        "code": "2025-V",
+        "name": "ARL clase V 2025",
+        "description": "Tarifa máxima de cotización a riesgos laborales (ARL), clase de riesgo V (riesgo máximo), año 2025.",
+        "year": 2025,
+        "risk_class": "V",
+        "rate_bp": 696
+    },
+    {
+        "code": "2026-I",
+        "name": "ARL clase I 2026",
+        "description": "Tarifa mínima de cotización a riesgos laborales (ARL), clase de riesgo I (riesgo mínimo), año 2026.",
+        "year": 2026,
+        "risk_class": "I",
+        "rate_bp": 52
+    },
+    {
+        "code": "2026-II",
+        "name": "ARL clase II 2026",
+        "description": "Tarifa de cotización a riesgos laborales (ARL), clase de riesgo II (riesgo bajo), año 2026.",
+        "year": 2026,
+        "risk_class": "II",
+        "rate_bp": 104
+    },
+    {
+        "code": "2026-III",
+        "name": "ARL clase III 2026",
+        "description": "Tarifa de cotización a riesgos laborales (ARL), clase de riesgo III (riesgo medio), año 2026.",
+        "year": 2026,
+        "risk_class": "III",
+        "rate_bp": 244
+    },
+    {
+        "code": "2026-IV",
+        "name": "ARL clase IV 2026",
+        "description": "Tarifa de cotización a riesgos laborales (ARL), clase de riesgo IV (riesgo alto), año 2026.",
+        "year": 2026,
+        "risk_class": "IV",
+        "rate_bp": 435
+    },
+    {
+        "code": "2026-V",
+        "name": "ARL clase V 2026",
+        "description": "Tarifa máxima de cotización a riesgos laborales (ARL), clase de riesgo V (riesgo máximo), año 2026.",
+        "year": 2026,
+        "risk_class": "V",
+        "rate_bp": 696
+    }
+]
