@@ -84,7 +84,7 @@
             "id": "ciiu_codes",
             "file": "catalogs/ciiu_codes.json",
             "description": "Códigos CIIU (actividad económica)",
-            "rows": 508
+            "rows": 507
         }
     ]
 }

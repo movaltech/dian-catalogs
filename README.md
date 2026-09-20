@@ -37,9 +37,31 @@ avoids introducing translation errors into regulatory reference data.
 
 ## How to use it
 
-No installation and no server to run. Two common patterns, pick whichever fits:
+No installation and no server to run for the JSON itself. Three common patterns, pick
+whichever fits:
 
-### 1. On demand, via a CDN
+### 1. Go
+
+```bash
+go get github.com/movaltech/dian-catalogs
+```
+
+```go
+import "github.com/movaltech/dian-catalogs"
+
+entry, ok := catalogs.Get(catalogs.Departments, "05") // {Code: "05", Name: "Antioquia", ...}
+catalogs.IsValid(catalogs.DianTaxTypes, "01")          // true
+catalogs.IsValidMunicipality("05001", "05")            // true — Medellín belongs to Antioquia
+```
+
+This is a thin binding, not a fork: `//go:embed` pulls in the same `catalogs/*.json` and
+`index.json` published for every other language, and one generic loader (driven by
+`index.json`) replaces what would otherwise be a hand-written struct and parser per catalog
+in every Go project that depends on this repo. Adding a catalog to `index.json` needs no Go
+code change. See [`catalogs.go`](catalogs.go) for the full API (`Get`, `IsValid`,
+`IsValidMunicipality`, `All`, `CatalogIDs`).
+
+### 2. On demand, via a CDN
 
 GitHub plus a CDN such as [jsDelivr](https://www.jsdelivr.com/?docs=gh) serves any
 file in a public repo as a plain HTTP endpoint, cached, with the version pinned
@@ -53,7 +75,7 @@ Fetch it with whatever HTTP client your language provides, decode the JSON, and
 cache the result yourself (in memory, Redis, or wherever makes sense) — there's no
 need to request it on every operation.
 
-### 2. One-time download at deploy/seed time
+### 3. One-time download at deploy/seed time
 
 Fetch the JSON once, when you deploy or seed your own database, and store it
 locally from then on — the same shape as loading data from a local file, except the
@@ -93,6 +115,19 @@ primary document — treat those as provisional until verified.
 
 If you find outdated or incorrect data, please open an issue or a pull request with
 a reference to the official source.
+
+---
+
+## Testing
+
+```bash
+go test ./...
+```
+
+Cross-checks every catalog declared in `index.json` against its embedded file — same ID,
+same file path, same row count — so a JSON file added or edited without updating
+`index.json` (or vice versa) fails the build instead of silently drifting, plus targeted
+cases for `Get`/`IsValid`/`IsValidMunicipality`.
 
 ---
 
