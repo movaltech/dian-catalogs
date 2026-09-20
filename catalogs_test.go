@@ -34,8 +34,8 @@ func TestIndexMatchesEmbeddedFiles(t *testing.T) {
 
 func TestCatalogIDsMatchesIndex(t *testing.T) {
 	ids := CatalogIDs()
-	if len(ids) != 19 {
-		t.Fatalf("expected 19 catalogs, got %d: %v", len(ids), ids)
+	if len(ids) != 20 {
+		t.Fatalf("expected 20 catalogs, got %d: %v", len(ids), ids)
 	}
 }
 
@@ -131,6 +131,31 @@ func TestGetIncomeTaxRateHasRate(t *testing.T) {
 	}
 	if entry.RateBp != 3500 {
 		t.Fatalf("entry.RateBp = %d, want 3500", entry.RateBp)
+	}
+}
+
+// TestGetPUCAccountHasHierarchyAndPostingFlag guards PUC's own shape: a
+// non-posting grouping account (a Level 1-3 header) versus a posting
+// "cuenta de detalle" (Level 4), and ParentCode relating each back to its
+// parent -- separate from Municipalities' DepartmentCode.
+func TestGetPUCAccountHasHierarchyAndPostingFlag(t *testing.T) {
+	leaf, ok := Get(PUC, "110505")
+	if !ok {
+		t.Fatal("expected PUC account 110505 (Caja general) to exist")
+	}
+	if leaf.ParentCode != "1105" || leaf.Level != 4 || !leaf.IsPosting {
+		t.Fatalf("leaf = %+v, want ParentCode=1105 Level=4 IsPosting=true", leaf)
+	}
+
+	header, ok := Get(PUC, "1105")
+	if !ok {
+		t.Fatal("expected PUC account 1105 (Caja) to exist")
+	}
+	if header.IsPosting {
+		t.Fatalf("header = %+v, want IsPosting=false (a grouping account, not a posting target)", header)
+	}
+	if header.Category != "Activo" {
+		t.Fatalf("header.Category = %q, want Activo", header.Category)
 	}
 }
 

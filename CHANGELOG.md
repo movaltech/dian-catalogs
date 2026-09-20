@@ -5,10 +5,18 @@ All notable changes to this project are documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+## [1.2.0] - 2026-09-20
 
 ### Added
 
+- `puc`: Colombia's Plan Único de Cuentas (Decreto 2650 de 1993), 2503 accounts, 4 levels
+  deep -- reference data for an application to seed a COMPANY's own chart of accounts from,
+  not a table meant to be duplicated as-is into every company nor pointed at directly by a
+  ledger's foreign keys. `Entry` gains `ParentCode` (this catalog's own parent-relation field,
+  separate from `DepartmentCode`), `Level` (1-4), `Category` (Activo, Pasivo, Patrimonio,
+  Ingreso, Gasto, Costo, Costo de Producción, Cuenta de Orden Deudora/Acreedora), `IsPosting`
+  (false for a grouping/header account that must never receive a posting directly) and
+  `IsActive`.
 - Five catalogs of Colombian tax/labor values set by law rather than by DIAN's electronic
   invoicing Anexo Técnico, ported from an ERP's own accounting/payroll seed data so every
   consumer shares one source instead of each copying it by hand:
@@ -57,4 +65,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `index.json` manifest listing every catalog file and row count.
 - `scripts/csv_to_json.php` conversion tool.
 
+[1.2.0]: https://github.com/movaltech/dian-catalogs/releases/tag/v1.2.0
 [1.0.0]: https://github.com/movaltech/dian-catalogs/releases/tag/v1.0.0

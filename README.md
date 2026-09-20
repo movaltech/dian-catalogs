@@ -1,11 +1,11 @@
 # dian-catalogs
 
-Reference catalogs for Colombian tax/labor compliance — DIAN (Dirección de Impuestos
-y Aduanas Nacionales) electronic invoicing data (departments, municipalities,
-document types, units of measure, tax types, and more), plus other values set by
-Colombian law that change on the same yearly cadence (UVT, income tax rate,
-withholding concepts, ARL rates, SMMLV) — as plain JSON files, versioned with git
-tags.
+Reference catalogs for Colombian tax/labor/accounting compliance — DIAN (Dirección
+de Impuestos y Aduanas Nacionales) electronic invoicing data (departments,
+municipalities, document types, units of measure, tax types, and more), the
+official chart of accounts (PUC), and other values set by Colombian law that
+change on the same yearly cadence (UVT, income tax rate, withholding concepts, ARL
+rates, SMMLV) — as plain JSON files, versioned with git tags.
 
 This repository is **data only**. There is no business logic, no framework
 dependency, and no opinion about how you consume it — it's meant to be a single,
@@ -29,9 +29,14 @@ lives at `catalogs/<name>.json` as an array of objects, most commonly shaped as
 ```
 
 `municipalities.json` additionally carries `department_code`, relating each entry
-back to `departments.json`. A few catalogs key by something other than a plain DIAN
-code: `uvt`, `income_tax_rates` and `smmlv` key by year (e.g. `"2025"`); `arl_rates`
-keys by `"{year}-{risk_class}"` (e.g. `"2025-III"`); `withholding_concepts` keys by
+back to `departments.json`; `puc.json` (Colombia's official chart of accounts) has
+its own `parent_code` field for the same kind of relation within itself, plus
+`level`, `category`, `is_posting` and `is_active` -- `puc.json` is reference data
+for seeding a company's own chart of accounts from, not a table meant to be shared
+as-is across companies or joined against by a ledger's foreign keys. A few catalogs
+key by something other than a plain DIAN code: `uvt`, `income_tax_rates` and
+`smmlv` key by year (e.g. `"2025"`); `arl_rates` keys by `"{year}-{risk_class}"`
+(e.g. `"2025-III"`); `withholding_concepts` keys by
 `"{concepto}-{JURIDICA|NATURAL|BOTH}"` (e.g. `"01-JURIDICA"`, `"04-BOTH"`), since some
 withholding concepts have a different rate for a declarante than a no-declarante and
 others share one rate for both.

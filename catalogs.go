@@ -46,6 +46,15 @@ const (
 	IncomeTaxRates      = "income_tax_rates"
 	ARLRates            = "arl_rates"
 	SMMLV               = "smmlv"
+
+	// PUC is Colombia's Plan Único de Cuentas (Decreto 2650 de 1993): the
+	// official chart of accounts, ~2500 entries, 4 levels deep. It is
+	// reference data, not a ledger -- an application seeds a COMPANY's own
+	// chart of accounts FROM this catalog (choosing which codes it
+	// actually needs, all of them or a subset), rather than pointing its
+	// ledger tables directly at these rows or duplicating all ~2500 into
+	// every company. See ParentCode/Level/Category/IsPosting/IsActive.
+	PUC = "puc"
 )
 
 // Entry is a single row of a catalog. Not every catalog populates every field: DepartmentCode
@@ -95,6 +104,31 @@ type Entry struct {
 	// Type is set only by WithholdingConcepts: "RETEFUENTE", "RETEIVA",
 	// or "RETEICA".
 	Type string `json:"type,omitempty"`
+
+	// ParentCode is set only by PUC: the code of this account's immediate
+	// parent in the chart of accounts (e.g. "110505" Caja general's
+	// ParentCode is "1105" Caja). Separate from DepartmentCode (which is
+	// Municipalities' own parent-relation field) because the two catalogs
+	// were added independently and neither's JSON key can be renamed
+	// without breaking existing consumers.
+	ParentCode string `json:"parent_code,omitempty"`
+	// Level is set only by PUC: 1 (e.g. "1" Activo) through 4 (a fully
+	// specific account).
+	Level int `json:"level,omitempty"`
+	// Category is set only by PUC: "Activo", "Pasivo", "Patrimonio",
+	// "Ingreso", "Gasto", "Costo", "Costo de Producción", "Cuenta de
+	// Orden Deudora" or "Cuenta de Orden Acreedora".
+	Category string `json:"category,omitempty"`
+	// IsPosting is set only by PUC: true for a "cuenta de detalle" a
+	// journal entry may actually post to (almost always Level 4); false
+	// for a grouping/header account (Levels 1-3, and a few Level 4
+	// accounts DIAN reserves as headers) that exists only to organize the
+	// hierarchy and must never receive a posting directly.
+	IsPosting bool `json:"is_posting,omitempty"`
+	// IsActive is set only by PUC: false for an account DIAN has
+	// deprecated. Every account in this catalog is currently true; the
+	// field exists so a future deprecation needs no schema change.
+	IsActive bool `json:"is_active,omitempty"`
 }
 
 //go:embed index.json catalogs/*.json

@@ -115,6 +115,12 @@
             "file": "catalogs/smmlv.json",
             "description": "Salario Mínimo Mensual Legal Vigente en Colombia por año, en pesos colombianos. code = año",
             "rows": 8
+        },
+        {
+            "id": "puc",
+            "file": "catalogs/puc.json",
+            "description": "Plan Único de Cuentas (Decreto 2650 de 1993): el plan de cuentas oficial de Colombia, 4 niveles. Referencia para que cada empresa arme su propio plan de cuentas, no una tabla compartida entre empresas",
+            "rows": 2503
         }
     ]
 }
