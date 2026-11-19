@@ -5,11 +5,6 @@
         "description": "Sin responsabilidad de régimen — valor que el Anexo Técnico instruye usar cuando @listName de cbc:TaxLevelCode se informa sin un régimen específico (FAJ27/CAJ27/DAJ27 etc.: 'Opcional, si informado indicar No aplica'). No aparece en la tabla oficial de responsabilidades del RUT (casilla 53), que empieza en 01 — por eso no es un código RUT real, es el sentinel propio de la factura electrónica"
     },
     {
-        "code": "49",
-        "name": "No responsable — no obligado a facturar",
-        "description": "Código de régimen correspondiente al código de responsabilidad O-49 (No obligado a facturar). Se usa como listName en cbc:TaxLevelCode del AccountingSupplierParty del Documento Soporte (tipo 05) para terceros no obligados a facturar."
-    },
-    {
         "code": "02",
         "name": "Gravamen a los movimientos financieros",
         "description": "Código real de la tabla oficial de responsabilidades del RUT (Formulario 001, casilla 53) — GMF / 4x1000. Confirmado contra fuentes externas (Gerencie.com, Actualícese); no está en ningún archivo de la Caja de Herramientas de facturación electrónica, que es de otra tabla"
@@ -28,5 +23,15 @@
         "code": "05",
         "name": "Renta y complementario - régimen ordinario",
         "description": "Confirmado directamente en un RUT real (docs/reference/141227953056.pdf, casilla 53): '05- Impto. renta y compl. régimen ordinario' — coincide con la tabla oficial de responsabilidades del RUT (Formulario 001)"
+    },
+    {
+        "code": "48",
+        "name": "Responsable de IVA",
+        "description": "Responsable del impuesto sobre las ventas (IVA). Valor de @listName en cbc:TaxLevelCode del emisor y del adquiriente en la factura electrónica de venta y sus notas. Confirmado en los XML de ejemplo oficiales de la Caja de Herramientas FE V1.9 (edición 2026), que usan listName=\"48\" junto con la responsabilidad O-13 — pareja de 49 (no responsable de IVA)"
+    },
+    {
+        "code": "49",
+        "name": "No responsable — no obligado a facturar",
+        "description": "Código de régimen correspondiente al código de responsabilidad O-49 (No obligado a facturar). Se usa como listName en cbc:TaxLevelCode del AccountingSupplierParty del Documento Soporte (tipo 05) para terceros no obligados a facturar."
     }
 ]

@@ -200,3 +200,27 @@ func TestAllSortedByCode(t *testing.T) {
 		}
 	}
 }
+
+// TestTaxRegimesIncludeVATPair locks in the @listName pair DIAN's own sample invoices use in
+// cbc:TaxLevelCode: 48 (responsible for VAT) and 49, and checks the file is sorted by code.
+func TestTaxRegimesIncludeVATPair(t *testing.T) {
+	for _, code := range []string{"48", "49"} {
+		if !IsValid(TaxRegimes, code) {
+			t.Errorf("tax_regimes is missing code %q", code)
+		}
+	}
+
+	raw, err := embeddedFS.ReadFile("catalogs/tax_regimes.json")
+	if err != nil {
+		t.Fatal(err)
+	}
+	var entries []Entry
+	if err := json.Unmarshal(raw, &entries); err != nil {
+		t.Fatal(err)
+	}
+	for i := 1; i < len(entries); i++ {
+		if entries[i-1].Code >= entries[i].Code {
+			t.Errorf("tax_regimes.json is not sorted by code: %q comes before %q", entries[i-1].Code, entries[i].Code)
+		}
+	}
+}
