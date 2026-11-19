@@ -72,7 +72,7 @@
             "id": "tax_regimes",
             "file": "catalogs/tax_regimes.json",
             "description": "Regímenes tributarios",
-            "rows": 6
+            "rows": 7
         },
         {
             "id": "unit_measures",

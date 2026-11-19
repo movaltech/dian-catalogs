@@ -5,6 +5,15 @@ All notable changes to this project are documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.2.1] - 2026-11-19
+
+### Fixed
+
+- `tax_regimes`: add code `48` (Responsable de IVA), the @listName of `cbc:TaxLevelCode` that
+  DIAN's own sample invoices in the 2026 Caja de Herramientas FE V1.9 use together with `O-13`,
+  paired with `49`. The catalog had `49` but not `48`, so a consumer validating against it
+  rejected the most common value. Entries are now sorted by code (`49` came before `02`).
+
 ## [1.2.0] - 2026-09-20
 
 ### Added
