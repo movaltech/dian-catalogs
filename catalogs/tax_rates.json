@@ -1,0 +1,122 @@
+[
+    {
+        "code": "01-0.00",
+        "name": "IVA 0.00%",
+        "description": "Tabla 13.3.11 del Anexo Técnico FE V1.9 (Caja de Herramientas 2026), cbc:Percent del tributo 01. Conceptos: Exento"
+    },
+    {
+        "code": "01-5.00",
+        "name": "IVA 5.00%",
+        "description": "Tabla 13.3.11 del Anexo Técnico FE V1.9 (Caja de Herramientas 2026), cbc:Percent del tributo 01. Conceptos: Bienes / Servicios al 5"
+    },
+    {
+        "code": "01-16.00",
+        "name": "IVA 16.00%",
+        "description": "Tabla 13.3.11 del Anexo Técnico FE V1.9 (Caja de Herramientas 2026), cbc:Percent del tributo 01. Conceptos: Contratos firmados con el estado antes de ley 1819"
+    },
+    {
+        "code": "01-19.00",
+        "name": "IVA 19.00%",
+        "description": "Tabla 13.3.11 del Anexo Técnico FE V1.9 (Caja de Herramientas 2026), cbc:Percent del tributo 01. Conceptos: Tarifa general"
+    },
+    {
+        "code": "04-2.00",
+        "name": "INC 2.00%",
+        "description": "Tabla 13.3.11 del Anexo Técnico FE V1.9 (Caja de Herramientas 2026), cbc:Percent del tributo 04. Conceptos: Tarifa especial"
+    },
+    {
+        "code": "04-4.00",
+        "name": "INC 4.00%",
+        "description": "Tabla 13.3.11 del Anexo Técnico FE V1.9 (Caja de Herramientas 2026), cbc:Percent del tributo 04. Conceptos: Tarifa especial"
+    },
+    {
+        "code": "04-8.00",
+        "name": "INC 8.00%",
+        "description": "Tabla 13.3.11 del Anexo Técnico FE V1.9 (Caja de Herramientas 2026), cbc:Percent del tributo 04. Conceptos: Tarifa general"
+    },
+    {
+        "code": "04-16.00",
+        "name": "INC 16.00%",
+        "description": "Tabla 13.3.11 del Anexo Técnico FE V1.9 (Caja de Herramientas 2026), cbc:Percent del tributo 04. Conceptos: Tarifa especial"
+    },
+    {
+        "code": "05-15.00",
+        "name": "ReteIVA 15.00%",
+        "description": "Tabla 13.3.11 del Anexo Técnico FE V1.9 (Caja de Herramientas 2026), cbc:Percent del tributo 05. Conceptos: ReteIVA"
+    },
+    {
+        "code": "05-100.00",
+        "name": "ReteIVA 100.00%",
+        "description": "Tabla 13.3.11 del Anexo Técnico FE V1.9 (Caja de Herramientas 2026), cbc:Percent del tributo 05. Conceptos: ReteIVA"
+    },
+    {
+        "code": "06-0.10",
+        "name": "ReteRenta 0.10%",
+        "description": "Tabla 13.3.11 del Anexo Técnico FE V1.9 (Caja de Herramientas 2026), cbc:Percent del tributo 06. Conceptos: Compras de combustibles derivados del petróleo"
+    },
+    {
+        "code": "06-0.50",
+        "name": "ReteRenta 0.50%",
+        "description": "Tabla 13.3.11 del Anexo Técnico FE V1.9 (Caja de Herramientas 2026), cbc:Percent del tributo 06. Conceptos: Compras de café pergamino o cereza"
+    },
+    {
+        "code": "06-1.00",
+        "name": "ReteRenta 1.00%",
+        "description": "Tabla 13.3.11 del Anexo Técnico FE V1.9 (Caja de Herramientas 2026), cbc:Percent del tributo 06. Conceptos: Enajenación de activos fijos de personas naturales (notarías y tránsito son agentes retenedores); Compras de vehículos; Compras de bienes raíces cuya destinación y uso sea vivienda de habitación (por las primeras 20.000 UVT, es decir hasta $637.780.000); Servicios de transporte de carga; Servicios de transporte nacional de pasajeros por vía aérea o marítima; Servicios prestados por empresas de servicios temporales (sobre AIU)"
+    },
+    {
+        "code": "06-1.50",
+        "name": "ReteRenta 1.50%",
+        "description": "Tabla 13.3.11 del Anexo Técnico FE V1.9 (Caja de Herramientas 2026), cbc:Percent del tributo 06. Conceptos: Compras con tarjeta débito o crédito; Compras de bienes o productos agrícolas o pecuarios sin procesamiento industrial"
+    },
+    {
+        "code": "06-2.00",
+        "name": "ReteRenta 2.00%",
+        "description": "Tabla 13.3.11 del Anexo Técnico FE V1.9 (Caja de Herramientas 2026), cbc:Percent del tributo 06. Conceptos: Servicios prestados por empresas de vigilancia y aseo (sobre AIU); Servicios integrales de salud prestados por IPS; Contratos de construcción y urbanización"
+    },
+    {
+        "code": "06-2.50",
+        "name": "ReteRenta 2.50%",
+        "description": "Tabla 13.3.11 del Anexo Técnico FE V1.9 (Caja de Herramientas 2026), cbc:Percent del tributo 06. Conceptos: Compras generales (declarantes); Compras de bienes o productos agrícolas o pecuarios con procesamiento industrial (declarantes); Compras de bienes raíces cuya destinación y uso sea vivienda de habitación (exceso de las primeras 20.000 UVT, es decir superior a $637.780.000); Compras de bienes raíces cuya destinación y uso sea distinto a vivienda de habitación; Otros ingresos tributarios (declarantes)"
+    },
+    {
+        "code": "06-3.00",
+        "name": "ReteRenta 3.00%",
+        "description": "Tabla 13.3.11 del Anexo Técnico FE V1.9 (Caja de Herramientas 2026), cbc:Percent del tributo 06. Conceptos: Retención en colocación independiente de juegos de suerte y azar"
+    },
+    {
+        "code": "06-3.50",
+        "name": "ReteRenta 3.50%",
+        "description": "Tabla 13.3.11 del Anexo Técnico FE V1.9 (Caja de Herramientas 2026), cbc:Percent del tributo 06. Conceptos: Compras generales (no declarantes); Compras de bienes o productos agrícolas o pecuarios con procesamiento industrial declarantes (no declarantes); Por emolumentos eclesiásticos (no declarantes); Servicios de transporte nacional de pasajeros por vía terrestre (declarantes); Servicios de transporte nacional de pasajeros por vía terrestre (no declarantes); Servicios de hoteles y restaurantes (declarantes); Servicios de hoteles y restaurantes (no declarantes); Arrendamiento de bienes inmuebles (declarantes); Arrendamiento de bienes inmuebles (no declarantes); Otros ingresos tributarios (no declarantes); Servicios de licenciamiento o derecho de uso de software"
+    },
+    {
+        "code": "06-4.00",
+        "name": "ReteRenta 4.00%",
+        "description": "Tabla 13.3.11 del Anexo Técnico FE V1.9 (Caja de Herramientas 2026), cbc:Percent del tributo 06. Conceptos: Servicios generales (declarantes); Por emolumentos eclesiásticos (declarantes); Arrendamiento de bienes muebles; Comisiones del Fondo Nacional de Garantías; Rendimientos financieros provenientes de títulos de renta fija"
+    },
+    {
+        "code": "06-6.00",
+        "name": "ReteRenta 6.00%",
+        "description": "Tabla 13.3.11 del Anexo Técnico FE V1.9 (Caja de Herramientas 2026), cbc:Percent del tributo 06. Conceptos: Servicios generales (no declarantes)"
+    },
+    {
+        "code": "06-7.00",
+        "name": "ReteRenta 7.00%",
+        "description": "Tabla 13.3.11 del Anexo Técnico FE V1.9 (Caja de Herramientas 2026), cbc:Percent del tributo 06. Conceptos: Intereses o rendimientos financieros"
+    },
+    {
+        "code": "06-10.00",
+        "name": "ReteRenta 10.00%",
+        "description": "Tabla 13.3.11 del Anexo Técnico FE V1.9 (Caja de Herramientas 2026), cbc:Percent del tributo 06. Conceptos: Honorarios y comisiones (no declarantes)"
+    },
+    {
+        "code": "06-11.00",
+        "name": "ReteRenta 11.00%",
+        "description": "Tabla 13.3.11 del Anexo Técnico FE V1.9 (Caja de Herramientas 2026), cbc:Percent del tributo 06. Conceptos: Honorarios y comisiones (personas jurídicas); Honorarios y comisiones personas naturales que suscriban contrato o cuya sumatoria de los pagos o abonos en cuenta superen las 3.300 UVT ($105.135.000)"
+    },
+    {
+        "code": "06-20.00",
+        "name": "ReteRenta 20.00%",
+        "description": "Tabla 13.3.11 del Anexo Técnico FE V1.9 (Caja de Herramientas 2026), cbc:Percent del tributo 06. Conceptos: Loterías, rifas, apuestas y similares"
+    }
+]

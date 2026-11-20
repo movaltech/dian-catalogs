@@ -67,6 +67,12 @@ const (
 	// (cac:AllowanceCharge/cbc:AllowanceChargeReasonCode): 00 and 01 are discounts, 02 and 03
 	// charges. DIAN requires one on every document-level discount (rule FAQ04).
 	AllowanceChargeCodes = "allowance_charge_codes"
+
+	// TaxRates are the percent rates DIAN table 13.3.11 allows in cbc:Percent for IVA (01),
+	// INC (04), ReteIVA (05) and ReteRenta (06); DIAN notifies a rate outside the table. The
+	// code is compound, "{tax}-{rate}" with the rate at 2 decimals (e.g. "01-19.00"). Taxes
+	// with nominal values (INPP, IBUA, ICL) and other taxes are not in it.
+	TaxRates = "tax_rates"
 )
 
 // Entry is a single row of a catalog. Not every catalog populates every field: DepartmentCode

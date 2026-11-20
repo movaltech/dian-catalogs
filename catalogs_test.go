@@ -34,8 +34,8 @@ func TestIndexMatchesEmbeddedFiles(t *testing.T) {
 
 func TestCatalogIDsMatchesIndex(t *testing.T) {
 	ids := CatalogIDs()
-	if len(ids) != 23 {
-		t.Fatalf("expected 23 catalogs, got %d: %v", len(ids), ids)
+	if len(ids) != 24 {
+		t.Fatalf("expected 24 catalogs, got %d: %v", len(ids), ids)
 	}
 }
 
@@ -204,7 +204,7 @@ func TestAllSortedByCode(t *testing.T) {
 // TestNoteConceptsMatchDianTables locks in the codes of DIAN tables 13.2.4 and 13.2.5 and
 // two names whose accents DIAN validates literally.
 func TestNoteConceptsMatchDianTables(t *testing.T) {
-	for catalog, n := range map[string]int{CreditNoteConcepts: 6, DebitNoteConcepts: 4, AllowanceChargeCodes: 4} {
+	for catalog, n := range map[string]int{CreditNoteConcepts: 6, DebitNoteConcepts: 4, AllowanceChargeCodes: 4, TaxRates: 24} {
 		if got := len(All(catalog)); got != n {
 			t.Errorf("%s has %d entries, want %d", catalog, got, n)
 		}
@@ -215,6 +215,11 @@ func TestNoteConceptsMatchDianTables(t *testing.T) {
 	// The double space is DIAN's own text; a single space gets notice CBF04.
 	if e, _ := Get(CreditNoteConcepts, "3"); e.Name != "Rebaja  o descuento parcial o total" {
 		t.Errorf("credit note concept 3 = %q", e.Name)
+	}
+	for _, code := range []string{"01-19.00", "01-0.00", "04-8.00", "05-15.00", "06-2.50"} {
+		if !IsValid(TaxRates, code) {
+			t.Errorf("tax_rates is missing %s", code)
+		}
 	}
 	if e, _ := Get(DebitNoteConcepts, "3"); e.Name != "Cambio del valor" {
 		t.Errorf("debit note concept 3 = %q", e.Name)
