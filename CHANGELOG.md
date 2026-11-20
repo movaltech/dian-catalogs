@@ -5,6 +5,15 @@ All notable changes to this project are documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.5.1] - 2026-11-20
+
+### Fixed
+
+- `liability_codes`: `R-99-PN` is named "No aplica – Otros", the text of DIAN table 13.2.6.1,
+  instead of "No aplica (persona natural)": the table's note applies it to legal persons,
+  natural persons and final consumers alike. `R-99-PJ` and `O-49` now say they are not in
+  that table; DIAN habilitacion answers notice FAK26 for a receiver with `R-99-PJ`.
+
 ## [1.5.0] - 2026-11-19
 
 ### Added
@@ -123,6 +132,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `index.json` manifest listing every catalog file and row count.
 - `scripts/csv_to_json.php` conversion tool.
 
+[1.5.1]: https://github.com/movaltech/dian-catalogs/releases/tag/v1.5.1
 [1.5.0]: https://github.com/movaltech/dian-catalogs/releases/tag/v1.5.0
 [1.4.0]: https://github.com/movaltech/dian-catalogs/releases/tag/v1.4.0
 [1.3.1]: https://github.com/movaltech/dian-catalogs/releases/tag/v1.3.1

@@ -22,16 +22,16 @@
     {
         "code": "O-49",
         "name": "No obligado a facturar",
-        "description": "Código DIAN para terceros no obligados a facturar — usado en AccountingSupplierParty del Documento Soporte (tipo 05). Aparece con TaxRegimeCode=49 en cbc:TaxLevelCode listName='49' del XML DIAN."
+        "description": "No está en la tabla 13.2.6.1 de facturación electrónica. Código DIAN para terceros no obligados a facturar — usado en AccountingSupplierParty del Documento Soporte (tipo 05). Aparece con TaxRegimeCode=49 en cbc:TaxLevelCode listName='49' del XML DIAN."
     },
     {
         "code": "R-99-PJ",
         "name": "No aplica (persona jurídica)",
-        "description": "Catch-all confirmado en el Schematron real de la DIAN (2019) para personas jurídicas sin responsabilidades especiales. ADVERTENCIA: no usar como responsabilidad del RECEPTOR en factura — rechazado con notificación FAK26 (\"Responsabilidad informada para receptor no válido según lista\") en prueba real contra habilitación, 2026-09-02. Fuente externa confirma que desde el 1 de agosto de 2021 la lista de responsabilidades válidas para el receptor quedó restringida a solo 5 códigos: O-13, O-15, O-23, O-47, R-99-PN — R-99-PJ no es uno de ellos. Usar R-99-PN también para receptores persona jurídica sin responsabilidad especial."
+        "description": "No está en la tabla 13.2.6.1 de facturación electrónica: DIAN habilitación responde la notificación FAK26 (\"Responsabilidad informada para receptor no válido según lista\") para un receptor con R-99-PJ (verificado 2026-11-20). Para una persona jurídica sin responsabilidades use R-99-PN. Catch-all confirmado en el Schematron real de la DIAN (2019) para personas jurídicas sin responsabilidades especiales. ADVERTENCIA: no usar como responsabilidad del RECEPTOR en factura — rechazado con notificación FAK26 (\"Responsabilidad informada para receptor no válido según lista\") en prueba real contra habilitación, 2026-09-02. Fuente externa confirma que desde el 1 de agosto de 2021 la lista de responsabilidades válidas para el receptor quedó restringida a solo 5 códigos: O-13, O-15, O-23, O-47, R-99-PN — R-99-PJ no es uno de ellos. Usar R-99-PN también para receptores persona jurídica sin responsabilidad especial."
     },
     {
         "code": "R-99-PN",
-        "name": "No aplica (persona natural)",
-        "description": "Catch-all usado como valor por defecto en este sistema (issuers.Service/documents.Service) — no aparece en el Schematron de 2019 de la Caja de Herramientas (desactualizado en este punto), pero CONFIRMADO real: factura SETP990300000 autorizada por la DIAN (StatusCode 00) usando este código, 2026-06-24"
+        "name": "No aplica – Otros",
+        "description": "Tabla 13.2.6.1 del Anexo Técnico FE V1.9 (Caja de Herramientas 2026): \"No aplica – Otros\". Según la nota de la tabla 13.2.6.2, aplica a personas jurídicas, personas naturales y consumidor final que no tengan las demás responsabilidades. Es el único \"no aplica\" que acepta la factura electrónica."
     }
 ]
