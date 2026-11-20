@@ -1,0 +1,22 @@
+[
+    {
+        "code": "1",
+        "name": "Intereses",
+        "description": "Tabla 13.2.5 del Anexo Técnico FE V1.9 (Caja de Herramientas 2026): Concepto de Corrección para Notas débito, cac:DiscrepancyResponse/cbc:ResponseCode"
+    },
+    {
+        "code": "2",
+        "name": "Gastos por cobrar",
+        "description": "Tabla 13.2.5 del Anexo Técnico FE V1.9"
+    },
+    {
+        "code": "3",
+        "name": "Cambio del valor",
+        "description": "Tabla 13.2.5 del Anexo Técnico FE V1.9"
+    },
+    {
+        "code": "4",
+        "name": "Otros",
+        "description": "Tabla 13.2.5 del Anexo Técnico FE V1.9"
+    }
+]

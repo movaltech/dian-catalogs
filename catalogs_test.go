@@ -34,8 +34,8 @@ func TestIndexMatchesEmbeddedFiles(t *testing.T) {
 
 func TestCatalogIDsMatchesIndex(t *testing.T) {
 	ids := CatalogIDs()
-	if len(ids) != 20 {
-		t.Fatalf("expected 20 catalogs, got %d: %v", len(ids), ids)
+	if len(ids) != 22 {
+		t.Fatalf("expected 22 catalogs, got %d: %v", len(ids), ids)
 	}
 }
 
@@ -198,6 +198,22 @@ func TestAllSortedByCode(t *testing.T) {
 		if entries[i-1].Code >= entries[i].Code {
 			t.Fatalf("entries not sorted by code: %q >= %q", entries[i-1].Code, entries[i].Code)
 		}
+	}
+}
+
+// TestNoteConceptsMatchDianTables locks in the codes of DIAN tables 13.2.4 and 13.2.5 and
+// two names whose accents DIAN validates literally.
+func TestNoteConceptsMatchDianTables(t *testing.T) {
+	for catalog, n := range map[string]int{CreditNoteConcepts: 6, DebitNoteConcepts: 4} {
+		if got := len(All(catalog)); got != n {
+			t.Errorf("%s has %d entries, want %d", catalog, got, n)
+		}
+	}
+	if e, _ := Get(CreditNoteConcepts, "2"); e.Name != "Anulación de factura electrónica" {
+		t.Errorf("credit note concept 2 = %q", e.Name)
+	}
+	if e, _ := Get(DebitNoteConcepts, "3"); e.Name != "Cambio del valor" {
+		t.Errorf("debit note concept 3 = %q", e.Name)
 	}
 }
 

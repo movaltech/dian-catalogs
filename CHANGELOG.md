@@ -5,6 +5,26 @@ All notable changes to this project are documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.3.0] - 2026-11-19
+
+### Added
+
+- `credit_note_concepts` (6 codes) and `debit_note_concepts` (4 codes): the correction
+  concepts of DIAN tables 13.2.4 and 13.2.5 (`cac:DiscrepancyResponse/cbc:ResponseCode`),
+  copied from the Excel files of the Caja de Herramientas FE V1.9 (2026 edition). DIAN rejects
+  a note whose `cbc:Description` does not match its code (rule CBF04), accents included, so
+  consumers should send `name` as is. Trailing spaces of the official file were trimmed and
+  the double space in credit note concept 3 ("Rebaja  o descuento") was reduced to one.
+
+### Fixed
+
+- `tax_regimes`: code `49` is named "No responsable de IVA" (the pair of `48`) and its
+  description covers its use in sales invoices and their notes, with R-99-PN, besides the
+  support document. It used to say only "no obligado a facturar".
+- `index.json` reported version 1.2.0 in release 1.2.1.
+- A `.gitattributes` keeps LF line endings on every platform; CRLF checkouts on Windows broke
+  `gofmt` and the golden comparisons.
+
 ## [1.2.1] - 2026-11-19
 
 ### Fixed
@@ -74,5 +94,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `index.json` manifest listing every catalog file and row count.
 - `scripts/csv_to_json.php` conversion tool.
 
+[1.3.0]: https://github.com/movaltech/dian-catalogs/releases/tag/v1.3.0
+[1.2.1]: https://github.com/movaltech/dian-catalogs/releases/tag/v1.2.1
 [1.2.0]: https://github.com/movaltech/dian-catalogs/releases/tag/v1.2.0
 [1.0.0]: https://github.com/movaltech/dian-catalogs/releases/tag/v1.0.0

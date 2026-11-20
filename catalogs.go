@@ -55,6 +55,13 @@ const (
 	// ledger tables directly at these rows or duplicating all ~2500 into
 	// every company. See ParentCode/Level/Category/IsPosting/IsActive.
 	PUC = "puc"
+
+	// CreditNoteConcepts and DebitNoteConcepts are the correction concepts of DIAN tables
+	// 13.2.4 and 13.2.5 (cac:DiscrepancyResponse/cbc:ResponseCode). DIAN rejects a note whose
+	// cbc:Description is not the exact Name of its code (rule CBF04), accents included, so a
+	// caller should send Name as is instead of typing it.
+	CreditNoteConcepts = "credit_note_concepts"
+	DebitNoteConcepts  = "debit_note_concepts"
 )
 
 // Entry is a single row of a catalog. Not every catalog populates every field: DepartmentCode
