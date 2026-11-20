@@ -62,6 +62,11 @@ const (
 	// caller should send Name as is instead of typing it.
 	CreditNoteConcepts = "credit_note_concepts"
 	DebitNoteConcepts  = "debit_note_concepts"
+
+	// AllowanceChargeCodes are the discount and charge codes of DIAN table 13.3.8
+	// (cac:AllowanceCharge/cbc:AllowanceChargeReasonCode): 00 and 01 are discounts, 02 and 03
+	// charges. DIAN requires one on every document-level discount (rule FAQ04).
+	AllowanceChargeCodes = "allowance_charge_codes"
 )
 
 // Entry is a single row of a catalog. Not every catalog populates every field: DepartmentCode

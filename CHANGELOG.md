@@ -5,6 +5,15 @@ All notable changes to this project are documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.4.0] - 2026-11-19
+
+### Added
+
+- `allowance_charge_codes`: the discount and charge codes of DIAN table 13.3.8
+  (`cac:AllowanceCharge/cbc:AllowanceChargeReasonCode`), copied from the Excel file of the Caja
+  de Herramientas FE V1.9 (2026 edition): `00` and `01` discounts, `02` and `03` charges. The
+  footnote markers of the official names were dropped.
+
 ## [1.3.1] - 2026-11-19
 
 ### Fixed
@@ -104,6 +113,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `index.json` manifest listing every catalog file and row count.
 - `scripts/csv_to_json.php` conversion tool.
 
+[1.4.0]: https://github.com/movaltech/dian-catalogs/releases/tag/v1.4.0
 [1.3.1]: https://github.com/movaltech/dian-catalogs/releases/tag/v1.3.1
 [1.3.0]: https://github.com/movaltech/dian-catalogs/releases/tag/v1.3.0
 [1.2.1]: https://github.com/movaltech/dian-catalogs/releases/tag/v1.2.1
