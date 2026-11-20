@@ -212,6 +212,10 @@ func TestNoteConceptsMatchDianTables(t *testing.T) {
 	if e, _ := Get(CreditNoteConcepts, "2"); e.Name != "Anulación de factura electrónica" {
 		t.Errorf("credit note concept 2 = %q", e.Name)
 	}
+	// The double space is DIAN's own text; a single space gets notice CBF04.
+	if e, _ := Get(CreditNoteConcepts, "3"); e.Name != "Rebaja  o descuento parcial o total" {
+		t.Errorf("credit note concept 3 = %q", e.Name)
+	}
 	if e, _ := Get(DebitNoteConcepts, "3"); e.Name != "Cambio del valor" {
 		t.Errorf("debit note concept 3 = %q", e.Name)
 	}
