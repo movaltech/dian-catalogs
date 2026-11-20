@@ -11,8 +11,8 @@
     },
     {
         "code": "3",
-        "name": "Rebaja o descuento parcial o total",
-        "description": "Tabla 13.2.4 del Anexo Técnico FE V1.9. El Excel oficial trae un doble espacio después de 'Rebaja'; aquí va con uno solo"
+        "name": "Rebaja  o descuento parcial o total",
+        "description": "Tabla 13.2.4 del Anexo Técnico FE V1.9. El doble espacio después de 'Rebaja' es del texto oficial y DIAN lo exige: con un solo espacio la nota se acepta con la notificación CBF04 (verificado en habilitación, 2026-11-19)"
     },
     {
         "code": "4",

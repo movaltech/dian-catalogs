@@ -5,6 +5,16 @@ All notable changes to this project are documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.3.1] - 2026-11-19
+
+### Fixed
+
+- `credit_note_concepts`: code `3` is "Rebaja  o descuento parcial o total", with the double
+  space of DIAN's official table. Release 1.3.0 reduced it to one space, and DIAN habilitacion
+  accepts such a note with notice CBF04 ("La Descripción informada no se encuentra en la
+  lista"); with the double space it accepts it without notices. Every other concept of both
+  catalogs was sent to DIAN habilitacion and accepted without notices.
+
 ## [1.3.0] - 2026-11-19
 
 ### Added
@@ -94,6 +104,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `index.json` manifest listing every catalog file and row count.
 - `scripts/csv_to_json.php` conversion tool.
 
+[1.3.1]: https://github.com/movaltech/dian-catalogs/releases/tag/v1.3.1
 [1.3.0]: https://github.com/movaltech/dian-catalogs/releases/tag/v1.3.0
 [1.2.1]: https://github.com/movaltech/dian-catalogs/releases/tag/v1.2.1
 [1.2.0]: https://github.com/movaltech/dian-catalogs/releases/tag/v1.2.0
