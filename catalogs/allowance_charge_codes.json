@@ -1,0 +1,22 @@
+[
+    {
+        "code": "00",
+        "name": "Descuento no condicionado",
+        "description": "Tabla 13.3.8 del Anexo Técnico FE V1.9 (Caja de Herramientas 2026), cac:AllowanceCharge/cbc:AllowanceChargeReasonCode. Descuento. DIAN exige un código de esta tabla en todo descuento a nivel de factura (regla FAQ04)"
+    },
+    {
+        "code": "01",
+        "name": "Descuento condicionado",
+        "description": "Tabla 13.3.8 del Anexo Técnico FE V1.9. Descuento"
+    },
+    {
+        "code": "02",
+        "name": "Recargo no condicionado",
+        "description": "Tabla 13.3.8 del Anexo Técnico FE V1.9. Recargo"
+    },
+    {
+        "code": "03",
+        "name": "Recargo condicionado",
+        "description": "Tabla 13.3.8 del Anexo Técnico FE V1.9. Recargo; según la tabla se usa para informar las propinas"
+    }
+]
