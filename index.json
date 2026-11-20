@@ -1,5 +1,5 @@
 {
-    "version": "1.4.0",
+    "version": "1.5.0",
     "updated": "2026-11-19",
     "catalogs": [
         {
@@ -139,6 +139,12 @@
             "file": "catalogs/allowance_charge_codes.json",
             "description": "Códigos de descuento y recargo (tabla 13.3.8, cac:AllowanceCharge/cbc:AllowanceChargeReasonCode): 00 y 01 descuentos, 02 y 03 recargos",
             "rows": 4
+        },
+        {
+            "id": "tax_rates",
+            "file": "catalogs/tax_rates.json",
+            "description": "Tarifas porcentuales válidas de cbc:Percent por tributo (tabla 13.3.11) para IVA (01), INC (04), ReteIVA (05) y ReteRenta (06). code = {tributo}-{tarifa con 2 decimales}, p. ej. 01-19.00",
+            "rows": 24
         }
     ]
 }

@@ -5,6 +5,16 @@ All notable changes to this project are documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.5.0] - 2026-11-19
+
+### Added
+
+- `tax_rates`: the percent rates DIAN table 13.3.11 allows in `cbc:Percent`, copied from the
+  Excel file of the Caja de Herramientas FE V1.9 (2026 edition), for IVA (`01`: 0, 5, 16, 19),
+  INC (`04`: 2, 4, 8, 16), ReteIVA (`05`: 15, 100) and ReteRenta (`06`, 14 rates). The code
+  is `{tax}-{rate}` with the rate at 2 decimals, e.g. `01-19.00`; the description lists the
+  table's concepts for each rate. Taxes with nominal values (INPP, IBUA, ICL) are left out.
+
 ## [1.4.0] - 2026-11-19
 
 ### Added
@@ -113,6 +123,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `index.json` manifest listing every catalog file and row count.
 - `scripts/csv_to_json.php` conversion tool.
 
+[1.5.0]: https://github.com/movaltech/dian-catalogs/releases/tag/v1.5.0
 [1.4.0]: https://github.com/movaltech/dian-catalogs/releases/tag/v1.4.0
 [1.3.1]: https://github.com/movaltech/dian-catalogs/releases/tag/v1.3.1
 [1.3.0]: https://github.com/movaltech/dian-catalogs/releases/tag/v1.3.0
