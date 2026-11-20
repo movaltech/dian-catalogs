@@ -31,7 +31,7 @@
     },
     {
         "code": "49",
-        "name": "No responsable — no obligado a facturar",
-        "description": "Código de régimen correspondiente al código de responsabilidad O-49 (No obligado a facturar). Se usa como listName en cbc:TaxLevelCode del AccountingSupplierParty del Documento Soporte (tipo 05) para terceros no obligados a facturar."
+        "name": "No responsable de IVA",
+        "description": "No responsable del impuesto sobre las ventas (IVA) — pareja de 48. Valor de @listName en cbc:TaxLevelCode del emisor y del adquiriente en la factura electrónica de venta y sus notas, junto con la responsabilidad R-99-PN (aceptado por DIAN en habilitación, 2026-11-19). También se usa en el AccountingSupplierParty del Documento Soporte (tipo 05) para terceros no obligados a facturar (responsabilidad O-49)."
     }
 ]

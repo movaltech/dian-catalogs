@@ -1,0 +1,32 @@
+[
+    {
+        "code": "1",
+        "name": "Devolución parcial de los bienes y/o no aceptación parcial del servicio",
+        "description": "Tabla 13.2.4 del Anexo Técnico FE V1.9 (Caja de Herramientas 2026): Concepto de Corrección para Notas crédito, cac:DiscrepancyResponse/cbc:ResponseCode"
+    },
+    {
+        "code": "2",
+        "name": "Anulación de factura electrónica",
+        "description": "Tabla 13.2.4 del Anexo Técnico FE V1.9. No se permite en una nota crédito sin referencia a factura (CustomizationID 22, regla CBF03a)"
+    },
+    {
+        "code": "3",
+        "name": "Rebaja o descuento parcial o total",
+        "description": "Tabla 13.2.4 del Anexo Técnico FE V1.9. El Excel oficial trae un doble espacio después de 'Rebaja'; aquí va con uno solo"
+    },
+    {
+        "code": "4",
+        "name": "Ajuste de precio",
+        "description": "Tabla 13.2.4 del Anexo Técnico FE V1.9"
+    },
+    {
+        "code": "5",
+        "name": "Descuento comercial por pronto pago",
+        "description": "Tabla 13.2.4 del Anexo Técnico FE V1.9"
+    },
+    {
+        "code": "6",
+        "name": "Descuento comercial por volumen de ventas",
+        "description": "Tabla 13.2.4 del Anexo Técnico FE V1.9"
+    }
+]
