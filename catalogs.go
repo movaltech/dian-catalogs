@@ -63,6 +63,13 @@ const (
 	CreditNoteConcepts = "credit_note_concepts"
 	DebitNoteConcepts  = "debit_note_concepts"
 
+	// AdjustmentNoteConcepts are the correction concepts of the adjustment note to the support
+	// document (table 16.2.4 of the support document annex V1.1,
+	// cac:DiscrepancyResponse/cbc:ResponseCode). Unlike the invoice notes, its cbc:Description
+	// is free text of 20 to 5000 characters (rule NSBF04), so names 4 and 5 are too short to be
+	// sent as the description by themselves.
+	AdjustmentNoteConcepts = "adjustment_note_concepts"
+
 	// AllowanceChargeCodes are the discount and charge codes of DIAN table 13.3.8
 	// (cac:AllowanceCharge/cbc:AllowanceChargeReasonCode): 00 and 01 are discounts, 02 and 03
 	// charges. DIAN requires one on every document-level discount (rule FAQ04).

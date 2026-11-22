@@ -5,6 +5,15 @@ All notable changes to this project are documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.6.0] - 2026-11-22
+
+### Added
+
+- `adjustment_note_concepts` (5 codes): the correction concepts of the adjustment note to the
+  support document (nota de ajuste al documento soporte), table 16.2.4 of the support document
+  annex V1.1 (Resolución 000167 de 2021), `cac:DiscrepancyResponse/cbc:ResponseCode`. Its
+  `cbc:Description` is free text of 20 to 5000 characters (rule NSBF04), not the code's name.
+
 ## [1.5.1] - 2026-11-20
 
 ### Fixed
