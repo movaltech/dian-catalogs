@@ -1,6 +1,6 @@
 {
-    "version": "1.5.1",
-    "updated": "2026-11-19",
+    "version": "1.6.0",
+    "updated": "2026-11-22",
     "catalogs": [
         {
             "id": "countries",
@@ -133,6 +133,12 @@
             "file": "catalogs/debit_note_concepts.json",
             "description": "Conceptos de corrección para notas débito (tabla 13.2.5, cac:DiscrepancyResponse/cbc:ResponseCode). DIAN exige que cbc:Description sea el nombre exacto del código, tildes incluidas",
             "rows": 4
+        },
+        {
+            "id": "adjustment_note_concepts",
+            "file": "catalogs/adjustment_note_concepts.json",
+            "description": "Conceptos de corrección para notas de ajuste al documento soporte (tabla 16.2.4 del Anexo Técnico del Documento Soporte V1.1, cac:DiscrepancyResponse/cbc:ResponseCode). cbc:Description es texto libre de 20 a 5000 caracteres (regla NSBF04)",
+            "rows": 5
         },
         {
             "id": "allowance_charge_codes",
