@@ -1,5 +1,5 @@
 {
-    "version": "1.7.0",
+    "version": "1.8.0",
     "updated": "2026-11-24",
     "catalogs": [
         {
@@ -96,7 +96,7 @@
             "id": "uvt",
             "file": "catalogs/uvt.json",
             "description": "Unidad de Valor Tributario por año gravable, en pesos colombianos. code = año",
-            "rows": 6
+            "rows": 7
         },
         {
             "id": "income_tax_rates",

@@ -94,6 +94,13 @@ func TestGetWithholdingConceptHasCompositeCodeAndAccounts(t *testing.T) {
 	}
 }
 
+func TestUVT2026(t *testing.T) {
+	entry, ok := Get(UVT, "2026")
+	if !ok || entry.Year != 2026 || entry.ValueCents != 5237400 {
+		t.Fatalf("uvt 2026 = %+v, %v; want 5237400 cents (Resolución DIAN 000238 de 2025)", entry, ok)
+	}
+}
+
 func TestGetUVTHasYearAndValue(t *testing.T) {
 	entry, ok := Get(UVT, "2025")
 	if !ok {
