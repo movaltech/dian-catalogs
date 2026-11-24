@@ -40,5 +40,12 @@
         "description": "Unidad de Valor Tributario vigente para el año gravable 2025, en pesos colombianos.",
         "year": 2025,
         "value_cents": 4979900
+    },
+    {
+        "code": "2026",
+        "name": "UVT 2026",
+        "description": "Unidad de Valor Tributario vigente para el año gravable 2026, en pesos colombianos (Resolución DIAN 000238 de 2025).",
+        "year": 2026,
+        "value_cents": 5237400
     }
 ]
