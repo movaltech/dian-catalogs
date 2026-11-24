@@ -70,6 +70,12 @@ const (
 	// sent as the description by themselves.
 	AdjustmentNoteConcepts = "adjustment_note_concepts"
 
+	// EquivalentDocumentNoteConcepts are the correction concepts of the adjustment notes to the
+	// Documento Equivalente Electrónico, credit and debit alike (table 16.6 of the equivalent
+	// document annex V1.0, cac:DiscrepancyResponse/cbc:ResponseCode). Their cbc:Description is
+	// free text of 20 to 5000 characters (rules NABF04 and NADBF04), as in the support document's.
+	EquivalentDocumentNoteConcepts = "equivalent_document_note_concepts"
+
 	// AllowanceChargeCodes are the discount and charge codes of DIAN table 13.3.8
 	// (cac:AllowanceCharge/cbc:AllowanceChargeReasonCode): 00 and 01 are discounts, 02 and 03
 	// charges. DIAN requires one on every document-level discount (rule FAQ04).

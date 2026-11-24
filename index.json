@@ -1,6 +1,6 @@
 {
-    "version": "1.6.0",
-    "updated": "2026-11-22",
+    "version": "1.7.0",
+    "updated": "2026-11-24",
     "catalogs": [
         {
             "id": "countries",
@@ -138,6 +138,12 @@
             "id": "adjustment_note_concepts",
             "file": "catalogs/adjustment_note_concepts.json",
             "description": "Conceptos de corrección para notas de ajuste al documento soporte (tabla 16.2.4 del Anexo Técnico del Documento Soporte V1.1, cac:DiscrepancyResponse/cbc:ResponseCode). cbc:Description es texto libre de 20 a 5000 caracteres (regla NSBF04)",
+            "rows": 5
+        },
+        {
+            "id": "equivalent_document_note_concepts",
+            "file": "catalogs/equivalent_document_note_concepts.json",
+            "description": "Conceptos de corrección para notas de ajuste al documento equivalente electrónico, crédito y débito (tabla 16.6 del Anexo Técnico del Documento Equivalente Electrónico V1.0, cac:DiscrepancyResponse/cbc:ResponseCode). cbc:Description es texto libre de 20 a 5000 caracteres (reglas NABF04 y NADBF04)",
             "rows": 5
         },
         {
