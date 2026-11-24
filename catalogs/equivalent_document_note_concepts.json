@@ -1,0 +1,27 @@
+[
+    {
+        "code": "1",
+        "name": "Devolución parcial de los bienes y/o no aceptación parcial del servicio",
+        "description": "Tabla 16.6 del Anexo Técnico del Documento Equivalente Electrónico V1.0 (Resolución 000165 de 2023): Concepto de Corrección para Notas de Ajuste, cac:DiscrepancyResponse/cbc:ResponseCode"
+    },
+    {
+        "code": "2",
+        "name": "Anulación del documento equivalente electrónico",
+        "description": "Tabla 16.6 del Anexo Técnico del Documento Equivalente Electrónico V1.0"
+    },
+    {
+        "code": "3",
+        "name": "Rebaja o descuento parcial o total",
+        "description": "Tabla 16.6 del Anexo Técnico del Documento Equivalente Electrónico V1.0"
+    },
+    {
+        "code": "4",
+        "name": "Ajuste de precio",
+        "description": "Tabla 16.6 del Anexo Técnico del Documento Equivalente Electrónico V1.0"
+    },
+    {
+        "code": "5",
+        "name": "Otros",
+        "description": "Tabla 16.6 del Anexo Técnico del Documento Equivalente Electrónico V1.0"
+    }
+]

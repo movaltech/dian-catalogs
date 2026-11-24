@@ -5,6 +5,16 @@ All notable changes to this project are documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.7.0] - 2026-11-24
+
+### Added
+
+- `equivalent_document_note_concepts` (5 codes): the correction concepts of the adjustment notes
+  to the Documento Equivalente Electrónico (POS ticket and the other equivalent documents),
+  credit and debit alike, table 16.6 of the equivalent document annex V1.0 (Resolución 000165
+  de 2023), `cac:DiscrepancyResponse/cbc:ResponseCode`. Its `cbc:Description` is free text of
+  20 to 5000 characters (rules NABF04 and NADBF04).
+
 ## [1.6.0] - 2026-11-22
 
 ### Added
