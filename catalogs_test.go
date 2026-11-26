@@ -34,8 +34,8 @@ func TestIndexMatchesEmbeddedFiles(t *testing.T) {
 
 func TestCatalogIDsMatchesIndex(t *testing.T) {
 	ids := CatalogIDs()
-	if len(ids) != 26 {
-		t.Fatalf("expected 26 catalogs, got %d: %v", len(ids), ids)
+	if len(ids) != 27 {
+		t.Fatalf("expected 27 catalogs, got %d: %v", len(ids), ids)
 	}
 }
 
@@ -128,6 +128,16 @@ func TestGetSMMLVHasValue(t *testing.T) {
 	}
 	if entry.ValueCents != 150000000 {
 		t.Fatalf("entry.ValueCents = %d, want 150000000", entry.ValueCents)
+	}
+}
+
+func TestGetPlasticBagTaxHasValue(t *testing.T) {
+	entry, ok := Get(PlasticBagTax, "2026")
+	if !ok {
+		t.Fatal("expected plastic_bag_tax 2026 to exist")
+	}
+	if entry.Year != 2026 || entry.ValueCents != 7300 {
+		t.Fatalf("entry = %+v, want Year=2026 ValueCents=7300", entry)
 	}
 }
 

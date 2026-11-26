@@ -1,0 +1,23 @@
+[
+    {
+        "code": "2024",
+        "name": "Impuesto bolsas plásticas 2024",
+        "description": "Tarifa por bolsa del impuesto nacional al consumo de bolsas plásticas (art. 512-15 E.T.) vigente en 2024, en pesos colombianos.",
+        "year": 2024,
+        "value_cents": 6600
+    },
+    {
+        "code": "2025",
+        "name": "Impuesto bolsas plásticas 2025",
+        "description": "Tarifa por bolsa del impuesto nacional al consumo de bolsas plásticas (art. 512-15 E.T.) vigente en 2025, en pesos colombianos.",
+        "year": 2025,
+        "value_cents": 7000
+    },
+    {
+        "code": "2026",
+        "name": "Impuesto bolsas plásticas 2026",
+        "description": "Tarifa por bolsa del impuesto nacional al consumo de bolsas plásticas (art. 512-15 E.T.) vigente en 2026, en pesos colombianos (Circular DIAN 000005 de 2025).",
+        "year": 2026,
+        "value_cents": 7300
+    }
+]

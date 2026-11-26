@@ -5,6 +5,15 @@ All notable changes to this project are documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.9.0] - 2026-11-25
+
+### Added
+
+- `plastic_bag_tax` (3 years): the tax per bag of the national consumption tax on plastic bags
+  (`dian_tax_types` "22", art. 512-15 E.T.), keyed by year like `uvt`: 2024 $66, 2025 $70 and
+  2026 $73 (`value_cents` 7300), certified by Circular DIAN 000005 de 2025, in force from
+  1 January 2026. DIAN certifies each next year in December.
+
 ## [1.8.0] - 2026-11-24
 
 ### Added
