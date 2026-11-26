@@ -47,6 +47,12 @@ const (
 	ARLRates            = "arl_rates"
 	SMMLV               = "smmlv"
 
+	// PlasticBagTax is the national consumption tax on plastic bags (dian_tax_types "22", art.
+	// 512-15 of the Estatuto Tributario): ValueCents is the tax per bag in force in Year. DIAN
+	// certifies the next year's rate every December by circular, updated with the CPI and
+	// rounded to the nearest peso. It keys by year alone (e.g. "2026"), as UVT does.
+	PlasticBagTax = "plastic_bag_tax"
+
 	// PUC is Colombia's Plan Único de Cuentas (Decreto 2650 de 1993): the
 	// official chart of accounts, ~2500 entries, 4 levels deep. It is
 	// reference data, not a ledger -- an application seeds a COMPANY's own
@@ -102,7 +108,7 @@ type Entry struct {
 	Symbol         string `json:"symbol,omitempty"`
 	AgencyID       string `json:"agency_id,omitempty"`
 
-	// Year is set by UVT, IncomeTaxRates, ARLRates and SMMLV -- the same
+	// Year is set by UVT, IncomeTaxRates, ARLRates, SMMLV and PlasticBagTax -- the same
 	// value already encoded in Code, kept as its own typed field so a
 	// caller doesn't need to parse it back out.
 	Year int `json:"year,omitempty"`
@@ -130,7 +136,8 @@ type Entry struct {
 	// highest occupational risk.
 	RiskClass string `json:"risk_class,omitempty"`
 	// ValueCents is a monetary amount in Colombian peso cents: the UVT's
-	// own value (UVT) or the minimum wage (SMMLV) for Year.
+	// own value (UVT), the minimum wage (SMMLV) or the tax per plastic
+	// bag (PlasticBagTax) for Year.
 	ValueCents int64 `json:"value_cents,omitempty"`
 	// Type is set only by WithholdingConcepts: "RETEFUENTE", "RETEIVA",
 	// or "RETEICA".

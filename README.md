@@ -34,8 +34,8 @@ its own `parent_code` field for the same kind of relation within itself, plus
 `level`, `category`, `is_posting` and `is_active` -- `puc.json` is reference data
 for seeding a company's own chart of accounts from, not a table meant to be shared
 as-is across companies or joined against by a ledger's foreign keys. A few catalogs
-key by something other than a plain DIAN code: `uvt`, `income_tax_rates` and
-`smmlv` key by year (e.g. `"2025"`); `arl_rates` keys by `"{year}-{risk_class}"`
+key by something other than a plain DIAN code: `uvt`, `income_tax_rates`, `smmlv` and
+`plastic_bag_tax` key by year (e.g. `"2025"`); `arl_rates` keys by `"{year}-{risk_class}"`
 (e.g. `"2025-III"`); `withholding_concepts` keys by
 `"{concepto}-{JURIDICA|NATURAL|BOTH}"` (e.g. `"01-JURIDICA"`, `"04-BOTH"`), since some
 withholding concepts have a different rate for a declarante than a no-declarante and
