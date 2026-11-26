@@ -197,6 +197,14 @@ func TestIsValid(t *testing.T) {
 	}
 }
 
+// DIAN validates cac:TaxScheme/cbc:Name against the "Nombre" column of the tributes table
+// (rule DEAS17 of the Documento Equivalente annex V1.0, table 16.5.2).
+func TestTaxTypeNamesMatchDianTable(t *testing.T) {
+	if e, _ := Get(DianTaxTypes, "22"); e.Name != "INC Bolsas" {
+		t.Errorf("tax type 22 = %q, want \"INC Bolsas\"", e.Name)
+	}
+}
+
 func TestIsValidMunicipality(t *testing.T) {
 	if !IsValidMunicipality("05001", "05") {
 		t.Fatal("expected Medellín (05001) to belong to Antioquia (05)")
