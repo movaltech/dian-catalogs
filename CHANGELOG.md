@@ -5,6 +5,20 @@ All notable changes to this project are documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.9.2] - 2026-11-26
+
+### Fixed
+
+- `dian_tax_types` follows table 16.5.2 of the Documento Equivalente annex V1.0 (the same
+  tributes table as the invoice's), whose "Nombre" DIAN validates in `cac:TaxScheme/cbc:Name`
+  (rule DEAS17): 06 is "ReteRenta" (was "ReteFuente"), 08 is "IC Porcentual", the departmental
+  percentage consumption tax (was "ReteCREE", a repealed tax), and every description is the
+  annex's. `ZZ` keeps "No aplica", how a party's tax scheme reports it.
+
+### Added
+
+- `dian_tax_types` 30 "IC Datos", 32 "ICL", 33 "INPP" and 36 "ADV", missing from the table.
+
 ## [1.9.1] - 2026-11-26
 
 ### Fixed

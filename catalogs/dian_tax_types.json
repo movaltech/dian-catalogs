@@ -2,17 +2,17 @@
     {
         "code": "01",
         "name": "IVA",
-        "description": "Impuesto al Valor Agregado"
+        "description": "Impuesto sobre la Ventas"
     },
     {
         "code": "02",
         "name": "IC",
-        "description": "Impuesto al Consumo"
+        "description": "Impuesto al Consumo Departamental Nominal"
     },
     {
         "code": "03",
         "name": "ICA",
-        "description": "Impuesto de Industria y Comercio"
+        "description": "Impuesto de Industria, Comercio y Aviso"
     },
     {
         "code": "04",
@@ -22,42 +22,42 @@
     {
         "code": "05",
         "name": "ReteIVA",
-        "description": "Retención en la fuente por IVA"
+        "description": "Retención sobre el IVA"
     },
     {
         "code": "06",
-        "name": "ReteFuente",
-        "description": "Retención en la fuente por renta"
+        "name": "ReteRenta",
+        "description": "Retención sobre Renta"
     },
     {
         "code": "07",
         "name": "ReteICA",
-        "description": "Retención en la fuente por ICA"
+        "description": "Retención sobre el ICA"
     },
     {
         "code": "08",
-        "name": "ReteCREE",
-        "description": "Retención en la fuente por CREE (impuesto ya derogado, código vigente por compatibilidad histórica)"
+        "name": "IC Porcentual",
+        "description": "Impuesto al Consumo Departamental Porcentual"
     },
     {
         "code": "20",
         "name": "FtoHorticultura",
-        "description": "Fondo de Fomento Hortifrutícola"
+        "description": "Cuota de Fomento Hortofrutícola"
     },
     {
         "code": "21",
         "name": "Timbre",
-        "description": "Impuesto de Timbre Nacional"
+        "description": "Impuesto de Timbre"
     },
     {
         "code": "22",
         "name": "INC Bolsas",
-        "description": "Impuesto Nacional al Consumo de Bolsas Plásticas"
+        "description": "Impuesto Nacional al Consumo de Bolsa Plástica"
     },
     {
         "code": "23",
         "name": "INCarbono",
-        "description": "Impuesto Nacional al Carbono"
+        "description": "Impuesto Nacional del Carbono"
     },
     {
         "code": "24",
@@ -67,26 +67,46 @@
     {
         "code": "25",
         "name": "Sobretasa Combustibles",
-        "description": "Sobretasa al ACPM y la Gasolina Motor"
+        "description": "Sobretasa a los combustibles"
     },
     {
         "code": "26",
         "name": "Sordicom",
-        "description": "Confirmado válido en la lista oficial de tributos (Caja de Herramientas DIAN, TipoImpuesto-2.1.gc) — sin descripción larga verificada en este repositorio"
+        "description": "Contribución minoristas (Combustibles)"
+    },
+    {
+        "code": "30",
+        "name": "IC Datos",
+        "description": "Impuesto al Consumo de Datos"
+    },
+    {
+        "code": "32",
+        "name": "ICL",
+        "description": "Impuesto al Consumo de Licores"
+    },
+    {
+        "code": "33",
+        "name": "INPP",
+        "description": "Impuesto nacional productos plásticos"
     },
     {
         "code": "34",
         "name": "IBUA",
-        "description": "Impuesto a las Bebidas Ultraprocesadas Azucaradas (Ley 2277 de 2022). Código encontrado en fuente secundaria (revisión 2026-09-16), NO verificado aún contra el texto del Anexo Técnico oficial — confirmar antes de depender en producción."
+        "description": "Impuesto a las bebidas ultraprocesadas azucaradas"
     },
     {
         "code": "35",
         "name": "ICUI",
-        "description": "Impuesto a los Productos Comestibles Ultraprocesados Industrialmente, altos en azúcares añadidos/sodio/grasas saturadas (Ley 2277 de 2022). Código encontrado en fuente secundaria (revisión 2026-09-16), NO verificado aún contra el texto del Anexo Técnico oficial — confirmar antes de depender en producción."
+        "description": "Impuesto a los productos comestibles ultra procesados industrialmente y/o con alto contenido de azúcares añadidos, sodio o grasas saturadas"
+    },
+    {
+        "code": "36",
+        "name": "ADV",
+        "description": "AD VALOREM"
     },
     {
         "code": "ZZ",
         "name": "No aplica",
-        "description": "No aplica impuesto"
+        "description": "No aplica impuesto. La tabla 16.5.2 lo nombra \"Nombre de la figura tributaria\" (otros tributos, tasas y contribuciones); el régimen tributario de las partes (cac:PartyTaxScheme) lo informa como \"No aplica\", y así lo acepta la DIAN."
     }
 ]

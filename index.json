@@ -1,5 +1,5 @@
 {
-    "version": "1.9.1",
+    "version": "1.9.2",
     "updated": "2026-11-26",
     "catalogs": [
         {
@@ -35,8 +35,8 @@
         {
             "id": "dian_tax_types",
             "file": "catalogs/dian_tax_types.json",
-            "description": "Tipos de impuesto DIAN (IVA, INC, ICA, IBUA, ICUI, etc.)",
-            "rows": 18
+            "description": "Tributos DIAN (tabla 16.5.2 del anexo del documento equivalente, igual a la de factura): IVA, INC, ICA, INC Bolsas, IBUA, ICUI, etc.",
+            "rows": 22
         },
         {
             "id": "identification_types",

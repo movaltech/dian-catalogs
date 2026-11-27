@@ -200,8 +200,13 @@ func TestIsValid(t *testing.T) {
 // DIAN validates cac:TaxScheme/cbc:Name against the "Nombre" column of the tributes table
 // (rule DEAS17 of the Documento Equivalente annex V1.0, table 16.5.2).
 func TestTaxTypeNamesMatchDianTable(t *testing.T) {
-	if e, _ := Get(DianTaxTypes, "22"); e.Name != "INC Bolsas" {
-		t.Errorf("tax type 22 = %q, want \"INC Bolsas\"", e.Name)
+	for code, name := range map[string]string{
+		"06": "ReteRenta", "08": "IC Porcentual", "22": "INC Bolsas",
+		"30": "IC Datos", "32": "ICL", "33": "INPP", "34": "IBUA", "36": "ADV",
+	} {
+		if e, ok := Get(DianTaxTypes, code); !ok || e.Name != name {
+			t.Errorf("tax type %s = %q (%v), want %q", code, e.Name, ok, name)
+		}
 	}
 }
 
