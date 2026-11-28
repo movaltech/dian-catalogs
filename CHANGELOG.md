@@ -5,6 +5,21 @@ All notable changes to this project are documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.0.0] - 2026-11-28
+
+### Removed
+
+- The PUC (Plan Único de Cuentas): `puc.json`, its entry in `index.json`, the `PUC` constant
+  and the PUC-only fields of `Entry` (`ParentCode`, `Level`, `Category`, `IsPosting`,
+  `IsActive`). The chart of accounts now lives with the accounting engine, in
+  `github.com/movaltech/accounting`; this repository keeps DIAN's tables and the tax and
+  labor values. `withholding_concepts` keeps its PUC account codes as plain codes.
+
+### Changed
+
+- The module path is `github.com/movaltech/dian-catalogs/v2`, as Go requires for a major
+  version: importers change `github.com/movaltech/dian-catalogs` to `.../v2`.
+
 ## [1.9.2] - 2026-11-26
 
 ### Fixed

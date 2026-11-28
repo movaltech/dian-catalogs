@@ -123,12 +123,6 @@
             "rows": 3
         },
         {
-            "id": "puc",
-            "file": "catalogs/puc.json",
-            "description": "Plan Único de Cuentas (Decreto 2650 de 1993): el plan de cuentas oficial de Colombia, 4 niveles. Referencia para que cada empresa arme su propio plan de cuentas, no una tabla compartida entre empresas",
-            "rows": 2503
-        },
-        {
             "id": "credit_note_concepts",
             "file": "catalogs/credit_note_concepts.json",
             "description": "Conceptos de corrección para notas crédito (tabla 13.2.4, cac:DiscrepancyResponse/cbc:ResponseCode). DIAN exige que cbc:Description sea el nombre exacto del código, tildes incluidas",

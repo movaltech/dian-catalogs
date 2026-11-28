@@ -2,8 +2,8 @@
 
 Reference catalogs for Colombian tax/labor/accounting compliance — DIAN (Dirección
 de Impuestos y Aduanas Nacionales) electronic invoicing data (departments,
-municipalities, document types, units of measure, tax types, and more), the
-official chart of accounts (PUC), and other values set by Colombian law that
+municipalities, document types, units of measure, tax types, and more) and other
+values set by Colombian law that
 change on the same yearly cadence (UVT, income tax rate, withholding concepts, ARL
 rates, SMMLV) — as plain JSON files, versioned with git tags.
 
@@ -29,11 +29,8 @@ lives at `catalogs/<name>.json` as an array of objects, most commonly shaped as
 ```
 
 `municipalities.json` additionally carries `department_code`, relating each entry
-back to `departments.json`; `puc.json` (Colombia's official chart of accounts) has
-its own `parent_code` field for the same kind of relation within itself, plus
-`level`, `category`, `is_posting` and `is_active` -- `puc.json` is reference data
-for seeding a company's own chart of accounts from, not a table meant to be shared
-as-is across companies or joined against by a ledger's foreign keys. A few catalogs
+back to `departments.json`. The chart of accounts (PUC) is not here: it lives with
+the accounting engine, in `github.com/movaltech/accounting`. A few catalogs
 key by something other than a plain DIAN code: `uvt`, `income_tax_rates`, `smmlv` and
 `plastic_bag_tax` key by year (e.g. `"2025"`); `arl_rates` keys by `"{year}-{risk_class}"`
 (e.g. `"2025-III"`); `withholding_concepts` keys by
